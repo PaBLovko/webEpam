@@ -1,0 +1,67 @@
+2021-05-30 16:35:04.936 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:35:15.771 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:03.283 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:03.288 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:03.289 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:30.064 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:30.071 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:30.072 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:30.077 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:44.505 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:44.510 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:36:44.511 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:37:01.553 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:37:01.559 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 16:37:01.560 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 17:26:30.248 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:42:14.374 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.759 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.765 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.767 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.768 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.770 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.771 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.772 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.774 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.775 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.776 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:48:26.778 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.290 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.296 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.297 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.299 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.300 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.301 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.303 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.304 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.305 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.306 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:49:15.308 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.174 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.181 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.182 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.183 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.185 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.186 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.187 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.188 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.189 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.190 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 17:51:19.191 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.105 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 18:38:21.110 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 18:38:21.111 [main] ERROR by.traning.task02.service.CreatorCircle - create() is is exception, the area is not natural
+2021-05-30 18:38:21.136 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.138 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.138 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.139 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.140 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.140 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.141 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.141 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.142 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.143 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:38:21.144 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-05-30 18:54:57.824 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
+2021-05-30 18:55:08.171 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
+2021-05-30 18:56:22.719 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
