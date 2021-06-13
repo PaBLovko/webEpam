@@ -1,4 +1,4 @@
-package by.traning.task01.service;
+package by.traning.task01.dal;
 
 import by.traning.task01.bean.FileForData;
 import org.apache.logging.log4j.LogManager;
@@ -25,7 +25,9 @@ public class FileForDataLogic {
         logger.info(String.format("createFile() is invoked, fileForData = %s",fileForData));
         if(!fileForData.getFile().exists()){
             try {
-                return fileForData.getFile().createNewFile();
+                boolean result = fileForData.getFile().createNewFile();
+                logger.info(String.format("createFile() is invoked. The fileForData %s created",fileForData));
+                return result;
             }catch (IOException ex){
                 logger.error(String.format("createFile() is exception. The fileForData %s did not creat",fileForData));
                 return false;
@@ -56,6 +58,7 @@ public class FileForDataLogic {
         } catch (IOException e) {
             logger.error(String.format("readFileToString() is exception.The fileForData %s did not read",fileForData));
         }
+        logger.info("readFileToString() is invoked, fileForData did read");
         return data;
     }
 }

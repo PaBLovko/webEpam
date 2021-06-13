@@ -25,13 +25,13 @@ public class SolvingThroughBranchingTest {
     public Object[][] createCorrectDataForComparisonOfAreaOfCircles() {
         return
                 new Object[][]{
-                        {new Circle[]{new Circle(2), new Circle(2)},
+                        {new Circle[]{new CreatorCircle().create(2), new CreatorCircle().create(2)},
                                 "First circle lesser then second? - no"},
-                        {new Circle[]{new Circle(10), new Circle(20)},
+                        {new Circle[]{new CreatorCircle().create(10), new CreatorCircle().create(20)},
                                 "First circle lesser then second? - yes"},
-                        {new Circle[]{new Circle(30), new Circle(40)},
+                        {new Circle[]{new CreatorCircle().create(30), new CreatorCircle().create(40)},
                                 "First circle lesser then second? - yes"},
-                        {new Circle[]{new Circle(9), new Circle(10)},
+                        {new Circle[]{new CreatorCircle().create(9), new CreatorCircle().create(10)},
                                 "First circle lesser then second? - yes"},
                 };
     }
@@ -74,11 +74,11 @@ public class SolvingThroughBranchingTest {
     public Object[][] createCorrectDataForPaymentVerification() {
         return
                 new Object[][]{
-                        {new double[]{0.1, 0.1}, "Спасибо!"},
-                        {new double[]{20, 30}, "Нужно еще 10.0"},
-                        {new double[]{20, 10}, "Сдача 10.0"},
-                        {new double[]{Double.MAX_VALUE, Double.MAX_VALUE}, "Спасибо!"},
-                        {new double[]{Double.MIN_NORMAL, Double.MIN_NORMAL}, "Спасибо!"}
+                        {new double[]{0.1, 0.1}, "Thanks!"},
+                        {new double[]{20, 30}, "Need more 10.0"},
+                        {new double[]{20, 10}, "Change 10.0"},
+                        {new double[]{Double.MAX_VALUE, Double.MAX_VALUE}, "Thanks!"},
+                        {new double[]{Double.MIN_NORMAL, Double.MIN_NORMAL}, "Thanks!"}
                 };
     }
 
@@ -141,4 +141,6 @@ public class SolvingThroughBranchingTest {
     public void paymentVerificationNegativeTest(double[] a) {
         assertThrows(Exception.class,()-> solvingThroughBranching.paymentVerification(a[0], a[1]));
     }
+
+    //TODO expectedExceptions
 }

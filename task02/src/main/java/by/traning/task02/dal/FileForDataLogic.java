@@ -1,4 +1,4 @@
-package by.traning.task02.service;
+package by.traning.task02.dal;
 
 import by.traning.task02.bean.FileForData;
 import org.apache.logging.log4j.LogManager;
@@ -21,7 +21,7 @@ public class FileForDataLogic {
      * @return The text that is stored in the file
      */
     public String readFileToString(FileForData fileForData) {
-        logger.info(String.format("readFileToString() is invoked, fileForData = %s",fileForData));
+        logger.debug(String.format("readFileToString() is invoked, fileForData = %s",fileForData));
         String data = null;
         try {
             Scanner scanner = new Scanner(Paths.get(fileForData.getFile().getPath()), StandardCharsets.UTF_8.name());

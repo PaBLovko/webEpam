@@ -65,3 +65,69 @@
 2021-05-30 18:54:57.824 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
 2021-05-30 18:55:08.171 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
 2021-05-30 18:56:22.719 [main] ERROR by.traning.task02.service.CreatorFileForData - create() is exception, the file was not found
+2021-06-11 19:01:48.139 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.160 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.161 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.163 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.164 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.166 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.167 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.169 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.170 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.172 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:01:48.174 [main] ERROR by.traning.task02.service.SolvingThroughBranching - paymentVerification() is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.056 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.067 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.068 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.070 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.071 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.073 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.075 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.075 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.077 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.079 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:10:49.081 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.385 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.389 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.390 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.392 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.393 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.395 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.397 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.399 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.403 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.405 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:19:36.406 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.856 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.867 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.868 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.869 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.871 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.872 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.873 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.874 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.876 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.877 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:07.879 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.762 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.773 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.777 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.779 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.780 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.782 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.785 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.787 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.789 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.791 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:34:59.793 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.799 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.806 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.808 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.809 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.811 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.815 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.816 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.820 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.822 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.825 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero
+2021-06-11 19:35:36.826 [main] ERROR by.traning.task02.service.SolvingThroughBranching - The method is exception, the numbers must be non-negative and not equal to zero

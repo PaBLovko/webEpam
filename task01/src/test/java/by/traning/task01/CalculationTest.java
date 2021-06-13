@@ -164,13 +164,13 @@ public class CalculationTest {
     @Test(description = "Negative script of the area of a triangle",
             dataProvider = "input_a_b_y_negativeTriangle")
     public void areaTriangleNegativeTest(double[] aby) {
-        assertThrows(Exception.class,()-> new Calculation().getAreaTriangle(aby[0],aby[1],aby[2]));
+        assertThrows(Exception.class,()-> new Calculation().calculateAreaTriangle(aby[0],aby[1],aby[2]));
     }
 
     @Test(description = "Positive script of the area of a triangle",
             dataProvider = "input_a_b_y_triangle")
     public void areaTriangleTest(double[] aby, double expected) {
-        double actual = calculation.getAreaTriangle(aby[0],aby[1],aby[2]);
+        double actual = calculation.calculateAreaTriangle(aby[0],aby[1],aby[2]);
         assertEquals(actual, expected);
     }
 

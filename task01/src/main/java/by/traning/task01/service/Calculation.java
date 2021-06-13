@@ -18,7 +18,9 @@ public class Calculation {
     public int foldWithThree(int a) throws ArithmeticException {
         logger.info(String.format("foldWithThree() is invoked, a = %s",a));
         checkingForOverflow(a);
-        return 3 + a;
+        int result = 3 + a;
+        logger.info(String.format("foldWithThree() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -28,8 +30,7 @@ public class Calculation {
      */
     private void checkingForOverflow(int a) throws ArithmeticException{
         logger.info(String.format("checkingForOverflow() is invoked, a = %s",a));
-        if (a >= Integer.MAX_VALUE){
-            checkingValueForNegation(a);
+        if (a>0 && a >= Integer.MAX_VALUE - a){
             logger.error(String.format("when summing the value of %s with a triple, an overflow occurs",a));
             throw new ArithmeticException("Summation cannot be performed");
         }
@@ -43,13 +44,15 @@ public class Calculation {
      * @return double value that is calculation result
      * @throws NumberFormatException this is an exception in the case of an inappropriate value
      */
-    public double trigonometricFormula(double x, double y) throws NumberFormatException{
+    public double trigonometricFormula(double x, double y) throws IllegalArgumentException{
         logger.info(String.format("trigonometricFormula() is invoked, x = %s, y = %s",x,y));
         checkingValueForNegation(x);
         checkingValueForNegation(y);
-        return (Math.sin(Math.toRadians(x)) + Math.cos(Math.toRadians(y))) /
+        double result = (Math.sin(Math.toRadians(x)) + Math.cos(Math.toRadians(y))) /
                 (Math.cos(Math.toRadians(x)) - Math.sin(Math.toRadians(y))) *
                 Math.tan(Math.toRadians(x * y));
+        logger.info(String.format("trigonometricFormula() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -59,13 +62,15 @@ public class Calculation {
      * @return The cube object that is the result of the calculation
      * @throws NumberFormatException this is an exception in the case of an inappropriate value
      */
-    public Cube calculatingCubeParameters(double cubeEdgeLength) throws NumberFormatException{
+    public Cube calculatingCubeParameters(double cubeEdgeLength) throws IllegalArgumentException{
         logger.info(String.format("calculatingCubeParameters() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
         checkingExistenceOfValue(cubeEdgeLength);
-        double faceArea=getFaceArea(cubeEdgeLength);
-        double cubeVolume=getCubeVolume(cubeEdgeLength);
-        double cubeArea=getCubeArea(cubeEdgeLength);
-        return new Cube(cubeEdgeLength, faceArea, cubeVolume, cubeArea);
+        double faceArea= calculateFaceArea(cubeEdgeLength);
+        double cubeVolume= calculateCubeVolume(cubeEdgeLength);
+        double cubeArea= calculateCubeArea(cubeEdgeLength);
+        Cube result = new Cube(cubeEdgeLength, faceArea, cubeVolume, cubeArea);
+        logger.info(String.format("calculatingCubeParameters() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -73,7 +78,7 @@ public class Calculation {
      * @param value this is a variable that has been submitted for verification
      * @throws NumberFormatException this is an exception in the case of an inappropriate value
      */
-    private void checkingExistenceOfValue(double value) throws NumberFormatException{
+    private void checkingExistenceOfValue(double value) throws IllegalArgumentException{
         logger.info(String.format("checkingExistenceOfValue() is invoked, value = %s",value));
         checkingValueForZero(value);
         checkingValueForNegation(value);
@@ -84,7 +89,7 @@ public class Calculation {
      * @param value this is a variable that has been submitted for verification
      * @throws NumberFormatException this is an exception in the case of a zero value
      */
-    private void checkingValueForZero(double value) throws NumberFormatException{
+    private void checkingValueForZero(double value) throws IllegalArgumentException{
         logger.info(String.format("checkingValueForZero() is invoked, value = %s",value));
         if (value == 0){
             logger.error(String.format("The number %s did not pass the check",value));
@@ -97,12 +102,13 @@ public class Calculation {
      * @param value this is a variable that has been submitted for verification
      * @throws NumberFormatException this is an exception in the case of a negative value
      */
-    private void checkingValueForNegation(double value) throws NumberFormatException{
+    private boolean checkingValueForNegation(double value) throws IllegalArgumentException{
         logger.info(String.format("checkingValueForNegation() is invoked, value = %s",value));
-        if (value < 0){
-            logger.error(String.format("The number %s did not pass the check",value));
-            throw new NumberFormatException("The value cannot be negative");
-        }
+//        if (value < 0){
+//            logger.error(String.format("The number %s did not pass the check",value));
+//            throw new NumberFormatException("The value cannot be negative");
+//        }
+        return value>=0;
     }
 
     /**
@@ -110,9 +116,11 @@ public class Calculation {
      * @param cubeEdgeLength this is the length of the edge of the cube
      * @return double value that is calculation result
      */
-    private double getFaceArea(double cubeEdgeLength) throws NumberFormatException{
-        logger.info(String.format("getFaceArea() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
-        return Math.pow(cubeEdgeLength,2);
+    private double calculateFaceArea(double cubeEdgeLength) throws IllegalArgumentException{
+        logger.info(String.format("calculateFaceArea() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
+        double result = Math.pow(cubeEdgeLength,2);
+        logger.info(String.format("calculateFaceArea() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -120,9 +128,11 @@ public class Calculation {
      * @param cubeEdgeLength this is the length of the edge of the cube
      * @return double value that is calculation result
      */
-    private double getCubeVolume(double cubeEdgeLength) throws NumberFormatException{
-        logger.info(String.format("getCubeVolume() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
-        return Math.pow(cubeEdgeLength,3);
+    private double calculateCubeVolume(double cubeEdgeLength) throws IllegalArgumentException{
+        logger.info(String.format("calculateCubeVolume() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
+        double result = Math.pow(cubeEdgeLength,3);
+        logger.info(String.format("calculateCubeVolume() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -130,9 +140,11 @@ public class Calculation {
      * @param cubeEdgeLength this is the length of the edge of the cube
      * @return double value that is calculation result
      */
-    private double getCubeArea(double cubeEdgeLength) throws NumberFormatException{
-        logger.info(String.format("getCubeArea() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
-        return Math.pow(cubeEdgeLength,2)*6;
+    private double calculateCubeArea(double cubeEdgeLength) throws IllegalArgumentException{
+        logger.info(String.format("calculateCubeArea() is invoked, cubeEdgeLength = %s",cubeEdgeLength));
+        double result = Math.pow(cubeEdgeLength,2)*6;
+        logger.info(String.format("calculateCubeArea() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -142,12 +154,14 @@ public class Calculation {
      * @param y this is the angle between the sides
      * @return double value that is calculation result
      */
-    public double getAreaTriangle(double a, double b, double y) throws NumberFormatException{
-        logger.info(String.format("getAreaTriangle() is invoked, a = %s, b = %s, y = %s",a,b,y));
+    public double calculateAreaTriangle(double a, double b, double y) throws IllegalArgumentException{
+        logger.info(String.format("calculateAreaTriangle() is invoked, a = %s, b = %s, y = %s",a,b,y));
         checkingExistenceOfValue(a);
         checkingExistenceOfValue(b);
         checkingExistenceOfValue(y);
-        return 0.5*a*b*Math.sin(Math.toRadians(y));
+        double result = 0.5*a*b*Math.sin(Math.toRadians(y));
+        logger.info(String.format("calculateAreaTriangle() is invoked, result = %s",result));
+        return result;
     }
 
     /**
@@ -156,12 +170,14 @@ public class Calculation {
      * @return double value that is calculation result
      * @throws NumberFormatException this is an exception in the case of an inappropriate value
      */
-    public double bytesToKilobytes(double bytes) throws NumberFormatException{
+    public double bytesToKilobytes(double bytes) throws IllegalArgumentException{
         logger.info(String.format("bytesToKilobytes() is invoked, bytes = %s",bytes));
         checkingValueForNegation(bytes);
         if (bytes == 0){
             return 0;
         }
-        return bytes / 1000;
+        double result = bytes / 1000;
+        logger.info(String.format("bytesToKilobytes() is invoked, result = %s",result));
+        return result;
     }
 }

@@ -64,35 +64,35 @@ public class SolvingThroughLoopTest {
     @Test(description = "Positive script of the getting numbers in a range from 5 to 1",
             dataProvider = "gettingNumbersInRange")
     public void gettingNumbersInRangeTest(int[] expected) {
-        int[] actual = solvingThroughLoop.gettingNumbersInRange();
+        int[] actual = solvingThroughLoop.calculateNumbersInRange();
         assertEquals(actual, expected);
     }
 
     @Test(description = "Positive script for finding the product of the squares of the first two hundred numbers",
             dataProvider = "gettingGivenProduct")
     public void gettingGivenProductTest(BigInteger expected) {
-        BigInteger actual = solvingThroughLoop.gettingGivenProduct();
+        BigInteger actual = solvingThroughLoop.calculateGivenProduct();
         assertEquals(actual, expected);
     }
 
     @Test(description = "Positive script for finding the sum of the terms of a series",
             dataProvider = "input_a_b_getSumOfRow")
     public void getSumOfRowTest(double a, double[] b, double expected) {
-        double actual = solvingThroughLoop.getSumOfRow(a, b);
+        double actual = solvingThroughLoop.calculateSumOfRow(a, b);
         assertEquals(actual, expected, 0.001);
     }
 
     @Test(description = "Positive script of the getting numbers in range ASCII",
             dataProvider = "getRatio")
     public void getRatioTest(int expected) {
-        int actual = solvingThroughLoop.getRatio().size();
+        int actual = solvingThroughLoop.calculateRatio().size();
         assertEquals(actual, expected);
     }
 
     @Test(description = "Positive script for finds four-digit numbers, the sum of the digits of each of which is 15",
             dataProvider = "getFourDigitNumbers")
     public void getFourDigitNumbersTest(int expected) {
-        int actual = solvingThroughLoop.getFourDigitNumbers().size();
+        int actual = solvingThroughLoop.calculateFourDigitNumbers().size();
         assertEquals(actual, expected);
     }
 }

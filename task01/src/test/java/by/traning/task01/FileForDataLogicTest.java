@@ -1,7 +1,7 @@
 package by.traning.task01;
 
 import by.traning.task01.bean.FileForData;
-import by.traning.task01.service.FileForDataLogic;
+import by.traning.task01.dal.FileForDataLogic;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

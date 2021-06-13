@@ -1,6 +1,5 @@
 package by.traning.task02.service;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,27 +10,51 @@ import java.util.*;
  * This class consists exclusively of methods of cyclic algorithms
  */
 public class SolvingThroughLoop {
+
     private static Logger logger = LogManager.getLogger(SolvingThroughLoop.class);
 
     /**
-     * 2 - The method for getting an array of numbers from 5 to 1
+     * The string literal describing that method is invoked
+     */
+    private static final String METHOD_IS_INVOKED = "The method is invoked";
+
+    /**
+     * The string literal describing that method worked correctly
+     */
+    private static final String METHOD_WORKED_CORRECTLY = "The method worked correctly, result = %s";
+
+    /**
+     * The numeric literal that contains the initial value of an ASCII table (excluding control characters)
+     */
+    private static final int START_TABLE = 32;
+
+    /**
+     * The numeric literal that contains the final value of the ASCII table (excluding control characters)
+     */
+    private static final int END_TABLE = 126;
+
+    /**
+     * 2 - The method for calculate an array of numbers from 5 to 1
      * @return array of numbers from 5 to 1
      */
-    public int[] gettingNumbersInRange(){
-        logger.info("gettingNumbersInRange() is invoked");
-        return new int[]{5,4,3,2,1};
+    public int[] calculateNumbersInRange(){
+        logger.debug(METHOD_IS_INVOKED);
+        int[] result = new int[]{5,4,3,2,1};
+        logger.info(METHOD_WORKED_CORRECTLY);
+        return result;
     }
 
     /**
      * 10 - The method for finding the product of the squares of the first two hundred numbers
      * @return the value that contains this result
      */
-    public BigInteger gettingGivenProduct() {
-        logger.info("gettingGivenProduct() is invoked");
+    public BigInteger calculateGivenProduct() {
+        logger.debug(METHOD_IS_INVOKED);
         BigInteger result = BigInteger.valueOf(1);
         for(int i = 2; i <= 200; i++) {
             result = result.multiply(BigInteger.valueOf((long) i * i));
         }
+        logger.info(String.format(METHOD_WORKED_CORRECTLY, result));
         return result;
     }
 
@@ -42,17 +65,18 @@ public class SolvingThroughLoop {
      * @param numberSeries a number series in the form of a double array
      * @return The sum of the series members satisfying the condition
      */
-    public double getSumOfRow(double e, double[] numberSeries){
-        logger.info(String.format("getSumOfRow() is invoked, e = %s, numberSeries = %s",
+    public double calculateSumOfRow(double e, double[] numberSeries){
+        logger.debug(String.format("The method is invoked, e = %s, numberSeries = %s",
                 e, Arrays.toString(numberSeries)));
-        double sum = 0;
+        double result = 0;
         for (double number : numberSeries) {
             double buffer = Math.pow(-1, number - 1) / number;
             if (Math.abs(buffer) >= e) {
-                sum += buffer;
+                result += buffer;
             }
         }
-        return sum;
+        logger.info(String.format(METHOD_WORKED_CORRECTLY, result));
+        return result;
     }
 
     /**
@@ -60,12 +84,13 @@ public class SolvingThroughLoop {
      * their numerical designations in computer memory (ASCII table)
      * @return The key (a value in memory) and the value (ASCII)
      */
-    public Map<Integer, Character> getRatio(){
-        logger.info("getRatio() is invoked");
+    public Map<Integer, Character> calculateRatio(){
+        logger.debug(METHOD_IS_INVOKED);
         Map<Integer, Character> result = new HashMap<>();
-        for (int i = 32; i <= 126; i++) {
+        for (int i = START_TABLE; i <= END_TABLE; i++) {
             result.put(i, (char) i);
         }
+        logger.info(String.format(METHOD_WORKED_CORRECTLY, result));
         return result;
     }
 
@@ -73,18 +98,19 @@ public class SolvingThroughLoop {
      * 34 - The method finds four-digit numbers, the sum of the digits of each of which is 15
      * @return The collection containing all the numbers included in the condition
      */
-    public List<Integer> getFourDigitNumbers(){
-        logger.info("getFourDigitNumbers() is invoked");
-        List<Integer> fourDigitNumbers = new ArrayList<>();
+    public List<Integer> calculateFourDigitNumbers(){
+        logger.debug(METHOD_IS_INVOKED);
+        List<Integer> result = new ArrayList<>();
         for(int number=1000;number<10000;number++){
             int a=number%10;
             int b=number/10%10;
             int c=number/100%10;
             int d=number/1000%10;
             if ((a+b+c+d)==15){
-                fourDigitNumbers.add(number);
+                result.add(number);
             }
         }
-        return fourDigitNumbers;
+        logger.info(String.format(METHOD_WORKED_CORRECTLY, result));
+        return result;
     }
 }

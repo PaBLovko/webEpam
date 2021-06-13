@@ -12,7 +12,9 @@ import java.io.IOException;
  * The class is the creator for the {@link by.traning.task02.bean.FileForData FileForData} class
  */
 public class CreatorFileForData {
+
     private static Logger logger = LogManager.getLogger(CreatorFileForData.class);
+
     /**
      * The method that implements the creation of the FileForData class
      * @param path file path
@@ -21,16 +23,18 @@ public class CreatorFileForData {
      * @throws IOException occurs when a file creation error occurs
      */
     public FileForData create(@NonNull String path) throws IOException{
-        logger.info(String.format("create() is invoked, path = %s",path));
+        logger.debug(String.format("The method is invoked, path = %s",path));
         if (!path.contains("src/main/resources")){
-            logger.error("create() is exception, the file was not found");
+            logger.error("The method is exception, the file was not found");
             throw new IOException("wrong path");
         }
         File file =  new File(path);
         if (!file.exists() && !file.createNewFile()){
-            logger.error("create() is exception, the file was not created");
+            logger.error("The method is exception, the file was not created");
             throw new IOException("file creation error");
         }
-        return new FileForData(path, file);
+        FileForData fileForData = new FileForData(path, file);
+        logger.info(String.format("The method worked correctly, fileForData = %s", fileForData));
+        return fileForData;
     }
 }
