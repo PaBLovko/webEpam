@@ -1,4 +1,4 @@
-package by.traning.task03a.view;
+package by.traning.task03a;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

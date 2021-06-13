@@ -1,4 +1,4 @@
-package by.traning.task03a.service.impl;
+package by.traning.task03a.service;
 
 import by.traning.task03a.bean.Array;
 import by.traning.task03a.service.action.ArrayServiceAction;
