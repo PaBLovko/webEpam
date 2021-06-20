@@ -3,7 +3,7 @@ package by.traning.task03a.service;
 import by.traning.task03a.service.exception.ServiceException;
 
 /**
- * The interface containing the alignment methods
+ * The interface containing the sort methods
  */
 public interface ArrayService{
     void arraySortBubble() throws ServiceException;

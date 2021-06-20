@@ -14,5 +14,5 @@ public interface View {
      * screen reading method
      * @return data row
      */
-    String readConsole();
+    String read();
 }

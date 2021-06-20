@@ -6,7 +6,6 @@ import lombok.*;
  * The class that has the necessary data to work with array
  * @param <K> the dummy object of the type that is used when declaring class members and processed data
  */
-@AllArgsConstructor
 @Data
 public class Array<K extends Number> implements Cloneable{
     /**

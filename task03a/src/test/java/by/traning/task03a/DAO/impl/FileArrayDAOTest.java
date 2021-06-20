@@ -1,6 +1,6 @@
 package by.traning.task03a.DAO.impl;
 
-import by.traning.task03a.bean.File;
+import by.traning.task03a.bean.FileData;
 import by.traning.task03a.dao.exception.DAOException;
 import by.traning.task03a.dao.impl.FileArrayDAO;
 import by.traning.task03a.service.creator.FileCreator;
@@ -31,8 +31,8 @@ public class FileArrayDAOTest {
 
     @Test(description = "Positive script for reading the file",
             dataProvider = "positiveDataForReadFile")
-    public void readFileTest(List<Integer> executed, File file) throws DAOException {
-        List<Integer> actual = fileArrayDAO.read(file);
+    public void readFileTest(List<Integer> executed, FileData fileData) throws DAOException {
+        List<Integer> actual = fileArrayDAO.read(fileData);
         assertEquals(actual, executed);
     }
 }

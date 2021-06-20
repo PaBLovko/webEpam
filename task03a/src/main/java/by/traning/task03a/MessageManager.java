@@ -3,7 +3,7 @@ package by.traning.task03a;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public enum MessageManager {
+enum MessageManager {
 
     EN(ResourceBundle.getBundle("text.lang",  new Locale("en", "US"))),
     RU(ResourceBundle.getBundle("text.lang", new Locale("ru", "RU")));

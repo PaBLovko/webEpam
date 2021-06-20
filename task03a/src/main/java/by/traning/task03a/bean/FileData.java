@@ -3,11 +3,13 @@ package by.traning.task03a.bean;
 import lombok.Data;
 import lombok.NonNull;
 
+import java.io.File;
+
 /**
  * The class that has the necessary data to work with files
  */
 @Data
-public class File {
+public class FileData {
     /**
      * The file path
      */
@@ -17,6 +19,6 @@ public class File {
      * The abstract representation of file
      */
     @NonNull
-    private final java.io.File file;
+    private final File file;
 }
 

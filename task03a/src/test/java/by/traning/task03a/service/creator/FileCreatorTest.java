@@ -1,6 +1,6 @@
 package by.traning.task03a.service.creator;
 
-import by.traning.task03a.bean.File;
+import by.traning.task03a.bean.FileData;
 import by.traning.task03a.service.exception.ServiceException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,7 +16,7 @@ public class FileCreatorTest {
     public Object[][] createDataForCreateFile(){
 
         return new Object[][]{
-                {PATH_DATA, new File(PATH_DATA, new java.io.File(PATH_DATA))}
+                {PATH_DATA, new FileData(PATH_DATA, new java.io.File(PATH_DATA))}
         };
     }
 
@@ -31,8 +31,8 @@ public class FileCreatorTest {
 
     @Test(description = "Positive script of the creating a file",
             dataProvider = "positiveDataForCreateFile")
-    public void creatorTest(String path, File expected) throws ServiceException {
-        File actual = creatorFileForData.create(path);
+    public void creatorTest(String path, FileData expected) throws ServiceException {
+        FileData actual = creatorFileForData.create(path);
         assertEquals(actual, expected);
     }
 

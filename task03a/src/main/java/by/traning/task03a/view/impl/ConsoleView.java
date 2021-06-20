@@ -1,7 +1,9 @@
-package by.traning.task03a.view;
+package by.traning.task03a.view.impl;
 
+import by.traning.task03a.view.View;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.util.Scanner;
 
 /**
@@ -22,7 +24,7 @@ public class ConsoleView implements View {
     }
 
     @Override
-    public String readConsole(){
+    public String read(){
         logger.debug(METHOD_IS_INVOKED);
         Scanner scanner = new Scanner(System.in);
         String result = scanner.next();

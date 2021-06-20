@@ -1,17 +1,17 @@
 package by.traning.task03a.bean;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NonNull;
 
 /**
  * The class that has the necessary data to work with matrix
  */
-@AllArgsConstructor
 @Data
 public class Matrix <K extends Number>{
     /**
      * Matrix
      */
+    @NonNull
     private K[][] values;
 
     /**

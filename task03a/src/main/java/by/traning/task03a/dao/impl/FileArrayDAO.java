@@ -1,6 +1,6 @@
 package by.traning.task03a.dao.impl;
 
-import by.traning.task03a.bean.File;
+import by.traning.task03a.bean.FileData;
 import by.traning.task03a.dao.ArrayDAO;
 import by.traning.task03a.dao.exception.DAOException;
 import lombok.NonNull;
@@ -20,18 +20,18 @@ public class FileArrayDAO implements ArrayDAO<Integer> {
     private static Logger logger = LogManager.getLogger(FileArrayDAO.class);
 
     @Override
-    public List<Integer> read(@NonNull File file) throws DAOException {
-        logger.debug(String.format("The method is invoked, file = %s",file));
+    public List<Integer> read(@NonNull FileData fileData) throws DAOException {
+        logger.debug(String.format("The method is invoked, file = %s", fileData));
         List<Integer> integerList;
         try {
-            List<String> allLines = Files.readAllLines(file.getFile().toPath());
+            List<String> allLines = Files.readAllLines(fileData.getFile().toPath());
             integerList = allLines.stream().map(Integer::parseInt).collect(Collectors.toList());
         }catch (IOException e){
-            logger.error(String.format("The method is exception.The file %s did not read",file));
+            logger.error(String.format("The method is exception.The file %s did not read", fileData));
             throw new DAOException("The file did not read", e);
         }catch (Exception e){
             logger.error(String.format("The method is exception.The file %s contains more than just numbers",
-                    file));
+                    fileData));
             throw new DAOException("The file contains more than just numbers", e);
         }
         logger.info(String.format("The method worked correctly, integerList = %s", integerList));
@@ -39,10 +39,10 @@ public class FileArrayDAO implements ArrayDAO<Integer> {
     }
 
     @Override
-    public void write(@NonNull List<Integer> array, @NonNull File file) throws DAOException {
-        logger.debug(String.format("The method is invoked, array = %s, file = %s",array, file));
+    public void write(@NonNull List<Integer> array, @NonNull FileData fileData) throws DAOException {
+        logger.debug(String.format("The method is invoked, array = %s, file = %s",array, fileData));
         try {
-            Files.write(file.getFile().toPath(), Collections.singleton(array.toString()), StandardOpenOption.APPEND);
+            Files.write(fileData.getFile().toPath(), Collections.singleton(array.toString()), StandardOpenOption.APPEND);
         } catch (IOException e) {
             logger.error(String.format("The method is exception. The array %s didn't write", array));
             throw new DAOException("The array did not write", e);
