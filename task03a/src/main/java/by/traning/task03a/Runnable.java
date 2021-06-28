@@ -22,5 +22,4 @@ public class Runnable {
             isCycleWorks = !answer.equals("response.exit");
         }
     }
-
 }
