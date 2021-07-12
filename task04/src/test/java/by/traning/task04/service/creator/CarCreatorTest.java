@@ -24,8 +24,8 @@ public class CarCreatorTest {
             wheels.add(disk);
         }
         return new Object[][]{
-                {new Object[]{"bmw", 100, 2.5, 15},
-                        new Car("bmw", new Engine(100, 2.5), wheels)}
+                {new Object[]{"bmw", 100, 2.5, 15, 4, true},
+                        new Car("bmw", new Engine(100, 2.5), wheels, true)}
         };
     }
 
@@ -41,7 +41,8 @@ public class CarCreatorTest {
     @Test(description = "Positive script of the creating a car",
             dataProvider = "positiveData")
     public void creatorTest(Object[] a, Car expected) throws ServiceException {
-        Car actual = carCreator.create((String) a[0], (Integer) a[1], (Double) a[2], (Integer) a[3]);
+        Car actual = carCreator.create((String) a[0], (Integer) a[1], (Double) a[2], (Integer) a[3], (Integer) a[4],
+                (Boolean) a[5]);
         assertEquals(actual, expected);
     }
 
@@ -49,7 +50,8 @@ public class CarCreatorTest {
             dataProvider = "negativeData")
     public void creatorNegativeTest(Object[] a){
         assertThrows(Exception.class,()->
-                carCreator.create((String) a[0], (Integer) a[1], (Double) a[2], (Integer) a[3]));
+                carCreator.create((String) a[0], (Integer) a[1], (Double) a[2], (Integer) a[3], (Integer) a[4],
+                        (Boolean) a[5]));
     }
 
 }

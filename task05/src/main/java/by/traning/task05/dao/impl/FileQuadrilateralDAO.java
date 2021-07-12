@@ -3,7 +3,7 @@ package by.traning.task05.dao.impl;
 import by.traning.task05.bean.Quadrilateral;
 import by.traning.task05.dao.QuadrilateralDAO;
 import by.traning.task05.dao.exception.DAOException;
-import by.traning.task05.util.FrequentlyUsedRegex;
+import by.traning.task05.service.util.FrequentlyUsedRegex;
 import lombok.NonNull;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,7 +22,7 @@ public class FileQuadrilateralDAO implements QuadrilateralDAO {
         try ( BufferedReader bufferedReader = new BufferedReader(new FileReader(url))){
             String line = bufferedReader.readLine();
             while (line != null) {
-                point.add(line);
+                point.add(line.trim());
                 line = bufferedReader.readLine();
             }
         } catch (FileNotFoundException e) {

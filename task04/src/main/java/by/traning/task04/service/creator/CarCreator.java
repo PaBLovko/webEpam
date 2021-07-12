@@ -26,17 +26,18 @@ public class CarCreator {
      * @return created class
      * @throws ServiceException when wrong parameters
      */
-    public Car create(@NonNull final String modelName, final int power, final double volume, final int diameter)
+    public Car create(@NonNull final String modelName, final int power, final double volume, final int diameter,
+                      final int countWheels, final boolean isFuel)
             throws ServiceException {
         logger.debug(String.format("The method is invoked, modelName = %s, power = %s, volume = %s, diameter = %s",
                 modelName, power, volume, diameter));
         Engine engine = new EngineCreator().create(power, volume);
         List<Wheel> wheels = new ArrayList<>();
         WheelCreator wheelCreator = new WheelCreator();
-        for (int i = 0; i < 4; i++){
+        for (int i = 0; i < countWheels; i++){
             wheels.add(wheelCreator.create(diameter));
         }
-        Car car = new Car(modelName, engine, wheels);
+        Car car = new Car(modelName, engine, wheels, isFuel);
         logger.info(String.format("The method worked correctly, car = %s", car));
         return car;
     }

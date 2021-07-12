@@ -15,7 +15,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertThrows;
 
 public class CarServiceActionTest {
-    private final CarServiceAction carServiceAction = new CarServiceAction();
+    private final CarActionService carServiceAction = new CarActionService();
 
     @DataProvider(name = "input_a_modelName")
     public Object[][] createCorrectDataForModelName(){
@@ -26,7 +26,7 @@ public class CarServiceActionTest {
         }
         return
                 new Object[][]{
-                        {new Car("bmw", new Engine(100, 2.5), wheels), "bmw"}
+                        {new Car("bmw", new Engine(100, 2.5), wheels, true), "bmw"}
                 };
     }
 
@@ -39,20 +39,7 @@ public class CarServiceActionTest {
         }
         return
                 new Object[][]{
-                        {new Car("bmw", new Engine(100, 2.5), wheels), true}
-                };
-    }
-
-    @DataProvider(name = "negative_input_a_wheelChange")
-    public Object[][] createCorrectDataForWheelChange(){
-        List<Wheel> wheels = new ArrayList<>();
-        Wheel disk = new Wheel(15);
-        for (int i = 0; i < 3; i++){
-            wheels.add(disk);
-        }
-        return
-                new Object[][]{
-                        {new Car("bmw", new Engine(100, 2.5), wheels)}
+                        {new Car("bmw", new Engine(100, 2.5), wheels, false), true}
                 };
     }
 
@@ -68,11 +55,5 @@ public class CarServiceActionTest {
     public void refuelTest(Car a, boolean expected) throws ServiceException {
         boolean actual = carServiceAction.refuel(a);
         assertEquals(actual, expected);
-    }
-
-    @Test(description = "Negative script of the change wheels",
-            dataProvider = "negative_input_a_wheelChange")
-    public void wheelChangeTest(Car a){
-        assertThrows(Exception.class,()-> carServiceAction.wheelChange(a));
     }
 }

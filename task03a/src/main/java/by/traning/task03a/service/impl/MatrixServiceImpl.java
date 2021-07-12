@@ -5,7 +5,7 @@ import by.traning.task03a.dao.MatrixDAO;
 import by.traning.task03a.dao.exception.DAOException;
 import by.traning.task03a.dao.factory.DAOFactory;
 import by.traning.task03a.service.MatrixService;
-import by.traning.task03a.service.action.MatrixServiceAction;
+import by.traning.task03a.service.sort.MatrixServiceSort;
 import by.traning.task03a.service.creator.FileCreator;
 import by.traning.task03a.service.creator.MatrixCreator;
 import by.traning.task03a.service.exception.ServiceException;
@@ -60,7 +60,7 @@ public class MatrixServiceImpl implements MatrixService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         MatrixDAO<Integer> matrixDAO = daoFactory.getFileMatrixImpl();
-        MatrixServiceAction matrixServiceAction = new MatrixServiceAction();
+        MatrixServiceSort matrixServiceAction = new MatrixServiceSort();
         Matrix<Integer> matrixFirst = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_FIRST);
         Matrix<Integer> matrixSecond = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_SECOND);
         Matrix<Integer> result = matrixServiceAction.matrixMultiply(matrixFirst, matrixSecond);
@@ -73,7 +73,7 @@ public class MatrixServiceImpl implements MatrixService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         MatrixDAO<Integer> matrixDAO = daoFactory.getFileMatrixImpl();
-        MatrixServiceAction matrixServiceAction = new MatrixServiceAction();
+        MatrixServiceSort matrixServiceAction = new MatrixServiceSort();
         Matrix<Integer> matrixFirst = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_FIRST);
         Matrix<Integer> matrixSecond = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_SECOND);
         Matrix<Integer> result = matrixServiceAction.matrixSummation(matrixFirst, matrixSecond);
@@ -86,7 +86,7 @@ public class MatrixServiceImpl implements MatrixService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         MatrixDAO<Integer> matrixDAO = daoFactory.getFileMatrixImpl();
-        MatrixServiceAction matrixServiceAction = new MatrixServiceAction();
+        MatrixServiceSort matrixServiceAction = new MatrixServiceSort();
         Matrix<Integer> matrixFirst = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_FIRST);
         Matrix<Integer> matrixSecond = matrixFill(matrixDAO, matrixServiceAction, PATH_MATRIX_SECOND);
         Matrix<Integer> result = matrixServiceAction.matrixSubtraction(matrixFirst, matrixSecond);
@@ -102,7 +102,7 @@ public class MatrixServiceImpl implements MatrixService{
      * @return filled array
      * @throws ServiceException when the error occurred with the file or array
      */
-    private Matrix<Integer> matrixFill(MatrixDAO<Integer> matrixDAO, MatrixServiceAction matrixServiceAction,
+    private Matrix<Integer> matrixFill(MatrixDAO<Integer> matrixDAO, MatrixServiceSort matrixServiceAction,
                                        String path) throws ServiceException{
         logger.debug(METHOD_IS_INVOKED);
         Matrix<Integer> matrix;

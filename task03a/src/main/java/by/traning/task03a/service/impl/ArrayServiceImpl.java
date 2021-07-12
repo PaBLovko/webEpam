@@ -5,7 +5,7 @@ import by.traning.task03a.dao.ArrayDAO;
 import by.traning.task03a.dao.exception.DAOException;
 import by.traning.task03a.dao.factory.DAOFactory;
 import by.traning.task03a.service.ArrayService;
-import by.traning.task03a.service.action.ArrayServiceAction;
+import by.traning.task03a.service.sort.ArrayServiceSort;
 import by.traning.task03a.service.creator.ArrayCreator;
 import by.traning.task03a.service.creator.FileCreator;
 import by.traning.task03a.service.exception.ServiceException;
@@ -57,7 +57,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortBubble(array);
         pushData(arrayDAO, array);
@@ -69,7 +69,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortShaker(array);
         pushData(arrayDAO, array);
@@ -81,7 +81,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortSelection(array);
         pushData(arrayDAO, array);
@@ -93,7 +93,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortInsertion(array);
         pushData(arrayDAO, array);
@@ -105,7 +105,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortHashing(array);
         pushData(arrayDAO, array);
@@ -117,7 +117,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortMerge(array);
         pushData(arrayDAO, array);
@@ -129,7 +129,7 @@ public class ArrayServiceImpl implements ArrayService{
         logger.debug(METHOD_IS_INVOKED);
         DAOFactory daoFactory = DAOFactory.getInstance();
         ArrayDAO<Integer> arrayDAO = daoFactory.getFileArrayImpl();
-        ArrayServiceAction arrayServiceAction = new ArrayServiceAction();
+        ArrayServiceSort arrayServiceAction = new ArrayServiceSort();
         Array<Integer> array = arrayFill(arrayDAO, arrayServiceAction);
         arrayServiceAction.arraySortShell(array);
         pushData(arrayDAO, array);
@@ -143,7 +143,7 @@ public class ArrayServiceImpl implements ArrayService{
      * @return filled array
      * @throws ServiceException when the error occurred with the file or array
      */
-    private Array<Integer> arrayFill(ArrayDAO<Integer> arrayDAO, ArrayServiceAction arrayServiceAction)
+    private Array<Integer> arrayFill(ArrayDAO<Integer> arrayDAO, ArrayServiceSort arrayServiceAction)
             throws ServiceException{
         logger.debug(METHOD_IS_INVOKED);
         Array<Integer> array;

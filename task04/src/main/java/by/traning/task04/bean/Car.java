@@ -1,5 +1,6 @@
 package by.traning.task04.bean;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NonNull;
 
@@ -9,6 +10,7 @@ import java.util.List;
  * The class that has the necessary data to work with car
  */
 @Data
+@AllArgsConstructor
 public class Car {
 
     /**

@@ -24,5 +24,5 @@ public interface CarDAO{
      * @param listList the data that need to write
      * @throws DAOException when data did not write
      */
-    void write(@NonNull final List<List<String>> listList, @NonNull File file) throws DAOException;
+    void write(@NonNull final List<String> listList, @NonNull File file) throws DAOException;
 }

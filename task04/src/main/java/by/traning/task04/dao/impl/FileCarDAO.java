@@ -35,16 +35,14 @@ public class FileCarDAO implements CarDAO {
     }
 
     @Override
-    public void write(@NonNull List<List<String>> listList, @NonNull File file) throws DAOException {
-        logger.debug(String.format("The method is invoked, cars = %s, file = %s", listList, file));
+    public void write(@NonNull List<String> cars, @NonNull File file) throws DAOException {
+        logger.debug(String.format("The method is invoked, cars = %s, file = %s", cars, file));
         try {
             Files.newInputStream(file.toPath() , StandardOpenOption.TRUNCATE_EXISTING);
-            for (List<String> car : listList){
-                Files.write(file.toPath(), Collections.singleton(car.toString()),
+                Files.write(file.toPath(), Collections.singleton(cars.toString()),
                         StandardOpenOption.APPEND);
-            }
         }catch (IOException e){
-            logger.error(String.format("The method is exception. The matrix %s didn't write", listList));
+            logger.error(String.format("The method is exception. The listList %s didn't write", cars));
             throw new DAOException("The array did not write", e);
         }
         logger.info("The method worked correctly");

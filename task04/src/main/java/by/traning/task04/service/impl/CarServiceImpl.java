@@ -5,7 +5,7 @@ import by.traning.task04.dao.CarDAO;
 import by.traning.task04.dao.exception.DAOException;
 import by.traning.task04.dao.factory.DAOFactory;
 import by.traning.task04.service.CarService;
-import by.traning.task04.service.action.CarServiceAction;
+import by.traning.task04.service.action.CarActionService;
 import by.traning.task04.service.creator.CarCreator;
 import by.traning.task04.service.exception.ServiceException;
 import lombok.NonNull;
@@ -66,12 +66,12 @@ public class CarServiceImpl implements CarService {
                 if (s.contains(modelName)){
                     List<String> carSegment = Arrays.asList(s.split("\\s"));
                     car = new CarCreator().create(carSegment.get(0), Integer.parseInt(carSegment.get(1)),
-                            Double.parseDouble(carSegment.get(2)), Integer.parseInt(carSegment.get(3)));
+                            Double.parseDouble(carSegment.get(2)), Integer.parseInt(carSegment.get(3)),
+                            Integer.parseInt(carSegment.get(4)), Boolean.parseBoolean(carSegment.get(5)));
                     break;
                 }
             }
         }catch (DAOException e){
-            logger.error(ERROR_READ, e);
             throw new ServiceException(ERROR_READ, e);
         }
         if (car == null){
@@ -82,12 +82,12 @@ public class CarServiceImpl implements CarService {
         return car;
     }
 
-
     @Override
     public void run(String modelName) throws ServiceException {
         logger.debug(METHOD_IS_INVOKED);
         Car car = findCar(modelName);
-        new CarServiceAction().run(car);
+        new CarActionService().run(car);
+        updateCars(car);
         logger.info(String.format(METHOD_WORKED_CORRECTLY_CAR, car));
     }
 
@@ -95,7 +95,7 @@ public class CarServiceImpl implements CarService {
     public String nameReceive(String modelName) throws ServiceException {
         logger.debug(METHOD_IS_INVOKED);
         Car car = findCar(modelName);
-        String name = new CarServiceAction().modelName(car);
+        String name = new CarActionService().modelName(car);
         logger.info(String.format(METHOD_WORKED_CORRECTLY_CAR, car));
         return name;
     }
@@ -104,7 +104,8 @@ public class CarServiceImpl implements CarService {
     public void wheelChange(String modelName) throws ServiceException {
         logger.debug(METHOD_IS_INVOKED);
         Car car = findCar(modelName);
-        new CarServiceAction().wheelChange(car);
+        new CarActionService().wheelChange(car);
+        updateCars(car);
         logger.info(String.format(METHOD_WORKED_CORRECTLY_CAR, car));
     }
 
@@ -112,7 +113,8 @@ public class CarServiceImpl implements CarService {
     public void refuel(String modelName) throws ServiceException {
         logger.debug(METHOD_IS_INVOKED);
         Car car = findCar(modelName);
-        new CarServiceAction().refuel(car);
+        new CarActionService().refuel(car);
+        updateCars(car);
         logger.info(String.format(METHOD_WORKED_CORRECTLY_CAR, car));
     }
 
@@ -125,11 +127,29 @@ public class CarServiceImpl implements CarService {
         try {
             cars = carDAO.read(new File(PATH_CARS));
         } catch (DAOException e) {
-            logger.error(ERROR_READ, e);
             throw new ServiceException(ERROR_READ, e);
         }
         String result = cars.toString().replaceAll("^\\[|\\]$", "");
         logger.info(String.format(METHOD_WORKED_CORRECTLY_RESULT, result));
         return result;
+    }
+
+    private void updateCars(Car car) throws ServiceException {
+        logger.debug(METHOD_IS_INVOKED);
+        DAOFactory daoFactory = DAOFactory.getInstance();
+        CarDAO carDAO = daoFactory.getFileCarImpl();
+        List<String> cars;
+        try {
+            cars = carDAO.read(new File(PATH_CARS));
+        }catch (DAOException e) {
+            throw new ServiceException(ERROR_READ, e);
+        }try {
+            cars.removeIf(s -> s.contains(car.getModelName()));
+            cars.add(car.toString());
+            carDAO.write(cars,new File(PATH_CARS));
+        }catch (DAOException e){
+            throw new ServiceException(ERROR_WRITE, e);
+        }
+        logger.info(String.format(METHOD_WORKED_CORRECTLY_RESULT, cars));
     }
 }

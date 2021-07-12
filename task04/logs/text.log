@@ -67,7 +67,7 @@ by.traning.task04.service.exception.ServiceException: Error during found
 	at by.traning.task04.service.impl.CarServiceImpl.run(CarServiceImpl.java:89) ~[classes/:?]
 	at by.traning.task04.controller.impl.CarRun.execute(CarRun.java:24) [classes/:?]
 	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
-	at by.traning.task04.Runnable.main(Runnable.java:23) [classes/:?]
+	at by.traning.task04.Main.main(Runnable.java:23) [classes/:?]
 2021-06-20 18:12:44.974 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
 2021-06-20 18:12:44.974 [main] ERROR traning.task04.controller.impl.CarRun - The method is exception, error during the procedure
 by.traning.task04.service.exception.ServiceException: Error during found
@@ -75,7 +75,7 @@ by.traning.task04.service.exception.ServiceException: Error during found
 	at by.traning.task04.service.impl.CarServiceImpl.run(CarServiceImpl.java:89) ~[classes/:?]
 	at by.traning.task04.controller.impl.CarRun.execute(CarRun.java:24) [classes/:?]
 	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
-	at by.traning.task04.Runnable.main(Runnable.java:23) [classes/:?]
+	at by.traning.task04.Main.main(Runnable.java:23) [classes/:?]
 2021-06-20 18:13:00.807 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
 2021-06-20 18:13:00.807 [main] ERROR traning.task04.controller.impl.CarNameReceive - The method is exception, error during the procedure
 by.traning.task04.service.exception.ServiceException: Error during found
@@ -83,7 +83,7 @@ by.traning.task04.service.exception.ServiceException: Error during found
 	at by.traning.task04.service.impl.CarServiceImpl.nameReceive(CarServiceImpl.java:97) ~[classes/:?]
 	at by.traning.task04.controller.impl.CarNameReceive.execute(CarNameReceive.java:24) [classes/:?]
 	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
-	at by.traning.task04.Runnable.main(Runnable.java:23) [classes/:?]
+	at by.traning.task04.Main.main(Runnable.java:23) [classes/:?]
 2021-06-20 18:15:15.941 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
 2021-06-20 18:15:15.945 [main] ERROR traning.task04.controller.impl.CarRun - The method is exception, error during the procedure
 by.traning.task04.service.exception.ServiceException: Error during found
@@ -91,4 +91,89 @@ by.traning.task04.service.exception.ServiceException: Error during found
 	at by.traning.task04.service.impl.CarServiceImpl.run(CarServiceImpl.java:89) ~[classes/:?]
 	at by.traning.task04.controller.impl.CarRun.execute(CarRun.java:24) [classes/:?]
 	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
-	at by.traning.task04.Runnable.main(Runnable.java:23) [classes/:?]
+	at by.traning.task04.Main.main(Runnable.java:23) [classes/:?]
+2021-07-09 14:16:54.786 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:16:54.803 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:16:54.805 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:18:21.669 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:18:21.683 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:18:21.684 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:18:52.892 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:18:52.904 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:18:52.906 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:09.691 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:09.697 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:09.753 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:21:18.789 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:21:18.802 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:18.803 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:47.497 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:21:47.513 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:21:47.514 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:00.388 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:22:00.402 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:00.403 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:32.890 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:22:32.904 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:32.905 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:43.578 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:22:43.592 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:22:43.593 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:23:20.929 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:23:20.944 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:23:20.946 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:23:40.541 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:23:40.546 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:23:40.590 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:24:42.928 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 14:24:42.941 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 14:24:42.942 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:09:52.348 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:09:52.352 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:09:52.402 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 15:10:18.652 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 15:10:18.665 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:10:18.666 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:19:24.573 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 15:19:24.592 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 15:19:24.593 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:11:14.062 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:11:14.066 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:11:14.109 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:12:01.321 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:12:01.334 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:12:01.336 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:12:51.808 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:12:51.819 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:12:51.820 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:02.170 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:13:02.183 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:02.184 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:20.096 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:13:20.106 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:20.107 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:46.560 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:46.563 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-09 16:13:46.581 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-09 16:16:50.368 [main] ERROR by.traning.task04.controller.CommandProvider - The method is exception, wrong request
+2021-07-09 16:16:56.827 [main] ERROR by.traning.task04.controller.CommandProvider - The method is exception, wrong request
+2021-07-09 16:28:11.995 [main] ERROR traning.task04.controller.impl.CarRun - The method is exception, error during the procedure
+by.traning.task04.service.exception.ServiceException: can't go
+	at by.traning.task04.service.action.CarActionService.run(CarServiceAction.java:42) ~[classes/:?]
+	at by.traning.task04.service.impl.CarServiceImpl.run(CarServiceImpl.java:90) ~[classes/:?]
+	at by.traning.task04.controller.impl.CarRun.execute(CarRun.java:26) [classes/:?]
+	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
+	at by.traning.task04.Main.main(Main.java:23) [classes/:?]
+2021-07-09 16:33:03.242 [main] ERROR traning.task04.controller.impl.CarRun - The method is exception, error during the procedure
+by.traning.task04.service.exception.ServiceException: can't go
+	at by.traning.task04.service.action.CarActionService.run(CarServiceAction.java:42) ~[classes/:?]
+	at by.traning.task04.service.impl.CarServiceImpl.run(CarServiceImpl.java:90) ~[classes/:?]
+	at by.traning.task04.controller.impl.CarRun.execute(CarRun.java:26) [classes/:?]
+	at by.traning.task04.controller.Controller.executeTask(Controller.java:29) [classes/:?]
+	at by.traning.task04.Main.main(Main.java:23) [classes/:?]
+2021-07-10 10:29:59.842 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-10 10:29:59.847 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-10 10:29:59.893 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-10 10:31:18.359 [main] ERROR traning.task04.service.impl.CarServiceImpl - Error during found
+2021-07-10 10:31:18.380 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
+2021-07-10 10:31:18.384 [main] ERROR traning.task04.service.creator.WheelCreator - The method is exception, non-existent dimensions
