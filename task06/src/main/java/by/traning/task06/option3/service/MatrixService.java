@@ -1,0 +1,40 @@
+package by.traning.task06.option3.service;
+
+import by.traning.task06.option3.bean.Item;
+import by.traning.task06.option3.bean.Matrix;
+import by.traning.task06.option3.dao.DAOException;
+import by.traning.task06.option3.dao.ReaderDAO;
+import by.traning.task06.option3.service.exception.ServiceException;
+import by.traning.task06.option3.service.parser.LineParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Semaphore;
+
+public class MatrixService {
+    private static Logger log = LogManager.getLogger(MatrixService.class.getName());
+
+    public Matrix createMatrix(Semaphore sem, String path) throws ServiceException {
+
+        ReaderDAO readerDAO = new ReaderDAO();
+        LineParser lineParser = new LineParser();
+        int[][] array;
+        try {
+            array = lineParser.returnTwoDimArray(readerDAO.readLines(path));
+        } catch (ServiceException | DAOException e) {
+            throw new ServiceException(e);
+        }
+        log.info("Matrix created successfully.");
+        return new Matrix(array, getListElement(sem, array), sem);
+    }
+
+    private List<Item> getListElement(Semaphore sem, int[][] matrix) {
+        List<Item> elements = new ArrayList<>();
+        for (int i = 0; i < matrix.length; i++) {
+            elements.add(new Item(sem, matrix[i][i], i, i));
+        }
+        return elements;
+    }
+}
