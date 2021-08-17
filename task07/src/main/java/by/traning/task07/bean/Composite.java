@@ -5,19 +5,39 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * composite object
+ */
 @Data
 public class Composite implements Component {
+    /**
+     * a field describing the specific type of this object
+     */
     private final Type type;
+    /**
+     * list of child components
+     */
     private List<Component> components = new ArrayList<>();
 
     public Composite(Type type) {
         this.type = type;
     }
 
+    /**
+     * method for adding a component
+     *
+     * @param component component
+     */
     public void add(Component component) {
         components.add(component);
     }
 
+    /**
+     * method for getting a list of components by a defined type
+     *
+     * @param type component type
+     * @return list of components
+     */
     public List<Component> getByType(Type type) {
         List<Component> result = new ArrayList<>();
         for (Component component : components) {
@@ -25,7 +45,8 @@ public class Composite implements Component {
                 result.add(component);
             } else {
                 List<Component> temp;
-                if ((temp = ((Composite) component).getByType(type)) != null) {
+                if (((Composite) component).getType() != Type.MARK &&
+                        (temp = ((Composite) component).getByType(type)) != null) {
                     result.addAll(temp);
                 }
             }
@@ -42,6 +63,9 @@ public class Composite implements Component {
         StringBuilder stringBuilder = new StringBuilder();
         for (Component component : components) {
             stringBuilder.append(component.collect());
+            if (type == Type.PARAGRAPH) {
+                stringBuilder.deleteCharAt(0).insert(0,"\t");
+            }
             if (type == Type.SENTENCE) {
                 stringBuilder.append(" ");
             }

@@ -10,8 +10,18 @@ import java.util.EnumMap;
 import java.util.List;
 
 public class SplitServiceImpl implements SplitService {
-    private EnumMap<Type, String> repository = new EnumMap<>(Type.class);
-    private final Logger logger = LogManager.getLogger();
+    private final EnumMap<Type, String> repository = new EnumMap<>(Type.class);
+    private static Logger logger = LogManager.getLogger(SplitServiceImpl.class);
+
+    /**
+     * The string literal describing that method is invoked
+     */
+    private static final String METHOD_IS_INVOKED = "The method is invoked";
+
+    /**
+     * The string literal describing that method worked correctly
+     */
+    private static final String THE_METHOD_WORKED_CORRECTLY = "The method worked correctly";
 
     public SplitServiceImpl() {
         repository.put(Type.PARAGRAPH, "\n");
@@ -24,7 +34,9 @@ public class SplitServiceImpl implements SplitService {
 
     @Override
     public List<String> split(String element, Type dest) {
+        logger.debug(METHOD_IS_INVOKED);
         List<String> result = Arrays.asList(element.split(repository.get(dest)));
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
         return result;
     }
 }

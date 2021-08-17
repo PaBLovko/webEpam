@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class RepositoryImpl implements Repository {
-    private final Logger logger = LogManager.getLogger();
+    private static Logger logger = LogManager.getLogger(RepositoryImpl.class);
     private Map<Integer, Component> repository = new TreeMap<>();
     private static final String PARAM = "parameter is {}";
     private static final String RESULT = "return value is {}";

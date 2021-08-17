@@ -8,8 +8,10 @@ import by.traning.task07.service.exception.ServiceException;
 import by.traning.task07.service.factory.ServiceFactory;
 import by.traning.task07.service.TextService;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
@@ -19,61 +21,67 @@ import static org.testng.Assert.assertEquals;
 
 public class TextServiceImplTest {
     private TextService textService;
+    private Component component;
+    private String text;
 
     @BeforeClass
     public void setUp() {
-        ServiceFactory factory = ServiceFactory.getInstance();
-        textService = factory.getTextService();
-    }
-
-    @Test
-    public void testJoinTree() {
+        ServiceFactory serviceFactory = ServiceFactory.getInstance();
+        textService = serviceFactory.getTextService();
+        TextService textService = serviceFactory.getTextService();
+        text = "\tIt has survived - not only (five) centuries, but also the leap into 13<<2 electronic " +
+                "typesetting, remaining 30>>>3 essentially ~6&9|(3&4) unchanged. It was popularised in the 5|(1&2&(3|" +
+                "(4&(25^5|6&47)|3)|2)|1) with the release of Letraset sheets containing Lorem Ipsum passages, and " +
+                "more recently with desktop publishing software like Aldus PageMaker including versions of Lorem " +
+                "Ipsum.\n" +
+                "\tIt is a long established fact that a reader will be distracted by the readable content of a page " +
+                "when looking at its layout. The point of using (~71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 Ipsum is that it" +
+                " has a more-or-less normal distribution of letters, as opposed to using (Content here), content " +
+                "here', making it look like readable English.";
         String path = "src/test/resources/textTest.txt";
-        String text = "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the with the release of Letraset sheets containing Lorem Ipsum passages, and more recently withdesktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n" +
-                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.\n" +
-                "It is a established fact that a reader will be of a page when looking at its layout.\n" +
-                "Bye...";
-        try (FileOutputStream fileOutputStream = new FileOutputStream(path)) {
-            fileOutputStream.write(text.getBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Component component = null;
-
+        FileOutputStream fileOutputStream;
         try {
+            fileOutputStream = new FileOutputStream(path);
+            fileOutputStream.write(text.getBytes());
             component = textService.createTree(path);
-        } catch (ServiceException e) {
+        } catch (ServiceException | IOException e) {
             e.printStackTrace();
         }
-        String result = textService.joinTree(component);
-        assertEquals(result, text);
     }
 
-    @Test
+    @DataProvider(name = "input_expectedForJoin")
+    public Object[][] createCorrectDataForJoinTree(){
+        return
+                new Object[][]{
+                        {text}
+                };
+    }
+
+    @DataProvider(name = "input_expectedForCreate")
+    public Object[][] createCorrectDataForCreateTree() throws ServiceException, IOException {
+        String text = "Abc!\n" +
+                "Abc, def.";
+        String path = "src/test/resources/textTreeTest.txt";
+        FileOutputStream fileOutputStream;
+        fileOutputStream = new FileOutputStream(path);
+        fileOutputStream.write(text.getBytes());
+        Component expected = textService.createTree(path);
+        return
+                new Object[][]{
+                        {expected}
+                };
+    }
+
+    @Test(description = "Positive script of the receive text collection")
     public void testFindComponent() {
-        String path = "src/test/resources/textTest.txt";
-        String text = "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the with the release of Letraset sheets containing Lorem Ipsum passages, and more recently withdesktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n" +
-                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.\n" +
-                "It is a established fact that a reader will be of a page when looking at its layout.\n" +
-                "Bye...";
-        try (FileOutputStream fileOutputStream = new FileOutputStream(path)) {
-            fileOutputStream.write(text.getBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Component component = null;
-        try {
-            component = textService.createTree(path);
-        } catch (ServiceException e) {
-            e.printStackTrace();
-        }
         Map<Integer, Component> repository = textService.receiveTextCollection();
         Component sameComponent = repository.get(0);
         assertEquals(sameComponent, component);
     }
 
-    @Test
-    public void testCreateTree() {
+    @Test(description = "Positive script of the create tree",
+            dataProvider = "input_expectedForCreate")
+    public void testCreateTree(Component expected) {
         Composite text = new Composite(Type.TEXT);
         List<Component> paragraphs = text.getComponents();
         Composite paragraph1 = new Composite(Type.PARAGRAPH);
@@ -151,12 +159,6 @@ public class TextServiceImplTest {
         Leaf character34 = new Leaf();
         character34.setSymbol('.');
         charsOfMark3.add(character34);
-        Component actual = null;
-        try {
-            actual = textService.createTree("src/test/resources/textTreeTest.txt");
-        } catch (ServiceException e) {
-            e.printStackTrace();
-        }
-        assertEquals(actual, text);
+        assertEquals(text, expected);
     }
 }

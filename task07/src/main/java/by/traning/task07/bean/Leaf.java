@@ -2,9 +2,12 @@ package by.traning.task07.bean;
 
 import lombok.Data;
 
+/**
+ * an indivisible element of the tree structure
+ */
 @Data
 public class Leaf implements Component {
-    private static final Type TYPE = Type.CHARACTER;
+    private final Type TYPE = Type.CHARACTER;
     private char symbol;
 
     @Override

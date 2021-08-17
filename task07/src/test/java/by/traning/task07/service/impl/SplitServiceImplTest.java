@@ -15,9 +15,10 @@ import static org.testng.Assert.assertEquals;
 
 public class SplitServiceImplTest {
 
-    @DataProvider(name = "dP")
+    @DataProvider(name = "input_text_expected_type")
     public Iterator<Object[]> callDP() {
-        Object[][] objects = {{"Abc.\nDef.\nGhi!", Arrays.asList("Abc.", "Def.", "Ghi!"), Type.PARAGRAPH},
+        Object[][] objects = {
+                {"Abc.\nDef.\nGhi!", Arrays.asList("Abc.", "Def.", "Ghi!"), Type.PARAGRAPH},
                 {"Abc. Def.", Arrays.asList("Abc.", "Def."), Type.SENTENCE},
                 {"Abc, Def.", Arrays.asList("Abc,", "Def."), Type.LEXEME},
                 {"Abc, Def.", Arrays.asList("Abc", "Def"), Type.WORD},
@@ -28,7 +29,8 @@ public class SplitServiceImplTest {
         return list.iterator();
     }
 
-    @Test(dataProvider = "dP")
+    @Test(description = "Positive script of the split text",
+            dataProvider = "input_text_expected_type")
     public void testSplit(String string, List<String> list, Type type) {
         ServiceFactory serviceFactory = ServiceFactory.getInstance();
         SplitService splitService = serviceFactory.getSplitService();

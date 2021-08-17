@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="https://www.webEpam.by/gems"
+      xsi:schemaLocation="https://www.webEpam.by/gems Gems.xsd">
+    <gem name="Diamond">
+        <preciousnes>precious</preciousnes>
+        <origin>Canada</origin>
+        <visualParameter>
+            <color>yellow</color>
+            <transparency>90</transparency>
+            <edgesCount>14</edgesCount>
+        </visualParameter>
+        <value>1.54</value>
+        <date>2000-10-05</date>
+        <time>05:36:46</time>
+    </gem>
+    <gem name="Chrysolite">
+        <preciousnes>semiPrecious</preciousnes>
+        <origin>USA</origin>
+        <visualParameter>
+            <color>green</color>
+            <transparency>70</transparency>
+            <edgesCount>12</edgesCount>
+        </visualParameter>
+        <value>1.34</value>
+        <date>1995-11-03</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Euclase">
+        <preciousnes>precious</preciousnes>
+        <origin>Brazil</origin>
+        <visualParameter>
+            <color>white</color>
+            <transparency>80</transparency>
+            <edgesCount>7</edgesCount>
+        </visualParameter>
+        <value>30</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Corundum">
+        <preciousnes>precious</preciousnes>
+        <origin>Russia</origin>
+        <visualParameter>
+            <color>red</color>
+            <transparency>10</transparency>
+            <edgesCount>10</edgesCount>
+        </visualParameter>
+        <value>70</value>
+        <date>1984-09-04</date>
+        <time>10:24:36</time>
+    </gem>
+    <gem name="Ruby">
+        <preciousnes>semiPrecious</preciousnes>
+        <origin>Tajikistan</origin>
+        <visualParameter>
+            <color>red</color>
+            <transparency>65</transparency>
+            <edgesCount>12</edgesCount>
+        </visualParameter>
+        <value>30</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Sapphire">
+        <preciousnes>precious</preciousnes>
+        <origin>USA</origin>
+        <visualParameter>
+            <color>blue</color>
+            <transparency>15</transparency>
+            <edgesCount>5</edgesCount>
+        </visualParameter>
+        <value>74</value>
+        <date>2003-10-04</date>
+        <time>09:39:59</time>
+    </gem>
+    <gem name="Aquamarine">
+        <preciousnes>precious</preciousnes>
+        <origin>Australia</origin>
+        <visualParameter>
+            <color>blue</color>
+            <transparency>7</transparency>
+            <edgesCount>13</edgesCount>
+        </visualParameter>
+        <value>50</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Emerald">
+        <preciousnes>precious</preciousnes>
+        <origin>Canada</origin>
+        <visualParameter>
+            <color>green</color>
+            <transparency>75</transparency>
+            <edgesCount>12</edgesCount>
+        </visualParameter>
+        <value>30</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Heliodor">
+        <preciousnes>precious</preciousnes>
+        <origin>Ukraine</origin>
+        <visualParameter>
+            <color>yellow</color>
+            <transparency>85</transparency>
+            <edgesCount>8</edgesCount>
+        </visualParameter>
+        <value>40</value>
+        <date>2009-12-07</date>
+        <time>02:37:56</time>
+    </gem>
+    <gem name="Morganite">
+        <preciousnes>precious</preciousnes>
+        <origin>USA</origin>
+        <visualParameter>
+            <color>white</color>
+            <transparency>65</transparency>
+            <edgesCount>5</edgesCount>
+        </visualParameter>
+        <value>70</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Amethyst">
+        <preciousnes>precious</preciousnes>
+        <origin>Brazil</origin>
+        <visualParameter>
+            <color>purple</color>
+            <transparency>80</transparency>
+            <edgesCount>10</edgesCount>
+        </visualParameter>
+        <value>30</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Jasper">
+        <preciousnes>precious</preciousnes>
+        <origin>Brazil</origin>
+        <visualParameter>
+            <color>red</color>
+            <transparency>1</transparency>
+            <edgesCount>5</edgesCount>
+        </visualParameter>
+        <value>20</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Beryl">
+        <preciousnes>precious</preciousnes>
+        <origin>Russia</origin>
+        <visualParameter>
+            <color>blue</color>
+            <transparency>60</transparency>
+            <edgesCount>14</edgesCount>
+        </visualParameter>
+        <value>20</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Amber">
+        <preciousnes>precious</preciousnes>
+        <origin>Russia</origin>
+        <visualParameter>
+            <color>brown</color>
+            <transparency>10</transparency>
+            <edgesCount>5</edgesCount>
+        </visualParameter>
+        <value>10</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Topaz">
+        <preciousnes>precious</preciousnes>
+        <origin>Ukraine</origin>
+        <visualParameter>
+            <color>yellow</color>
+            <transparency>55</transparency>
+            <edgesCount>14</edgesCount>
+        </visualParameter>
+        <value>27</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+    <gem name="Agate">
+        <preciousnes>precious</preciousnes>
+        <origin>Russia</origin>
+        <visualParameter>
+            <color>gray</color>
+            <transparency>21</transparency>
+            <edgesCount>7</edgesCount>
+        </visualParameter>
+        <value>14</value>
+        <date>1999-12-07</date>
+        <time>02:34:56</time>
+    </gem>
+</Gems>

@@ -8,25 +8,42 @@ import by.traning.task07.service.exception.ServiceException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
 public class SortServiceImpl implements SortService {
-  private final Logger logger = LogManager.getLogger();
+  private static Logger logger = LogManager.getLogger(SortServiceImpl.class);
+
+    /**
+     * The string literal describing that method is invoked
+     */
+    private static final String METHOD_IS_INVOKED = "The method is invoked";
+
+    /**
+     * The string literal describing that method worked correctly
+     */
+    private static final String THE_METHOD_WORKED_CORRECTLY = "The method worked correctly";
+
+    /**
+     * The string literal describing that method is exception
+     */
+    private static final String ERROR_FIND = "Error during found";
 
     @Override
-    public List<String> sortWords(String sentence) {
-        String regex = "[.,! '?]+";
-        List<String> words = Arrays.asList(sentence.split(regex));
-        Comparator<String> comparator = Comparator.comparingInt(String::length);
-        words.sort(comparator);
-        return words;
+    public List<Component> sortWords(Component component) {
+        logger.debug(METHOD_IS_INVOKED);
+        List<Component> components = ((Composite) component).getByType(Type.WORD);
+        Comparator<Component> comparator = Comparator.comparingInt(o -> ((Composite) o).getComponents().size());
+        components.sort(comparator);
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
+        return components;
     }
 
     @Override
     public List<Component> sortLexemes(Component component, String symbol) throws ServiceException {
+        logger.debug(METHOD_IS_INVOKED);
         if (symbol.length() > 1) {
+            logger.error(ERROR_FIND);
             throw new ServiceException("char consists more than one symbol");
         }
         List<Component> components = ((Composite) component).getByType(Type.LEXEME);
@@ -50,14 +67,17 @@ public class SortServiceImpl implements SortService {
             return difference;
         };
         components.sort(comparator);
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
         return components;
     }
 
     @Override
     public List<Component> sortParagraphs(Component component) {
+        logger.debug(METHOD_IS_INVOKED);
         List<Component> components = ((Composite) component).getByType(Type.PARAGRAPH);
         Comparator<Component> comparator = Comparator.comparingInt(o -> ((Composite) o).getComponents().size());
         components.sort(comparator);
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
         return components;
     }
 }

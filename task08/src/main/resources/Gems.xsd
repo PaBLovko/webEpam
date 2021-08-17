@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://www.webEpam.by/gems"
+        xmlns:tns="https://www.webEpam.by/gems"
+        elementFormDefault="qualified">
+
+    <element name="Gems">
+        <complexType>
+            <sequence>
+                <element name="gem" type="tns:Gem"
+                         minOccurs="1"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <simpleType name="Preciousnes">
+        <restriction base="string">
+            <enumeration value="precious"/>
+            <enumeration value="semiPrecious"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="VisualParameter">
+        <sequence>
+            <element name="color" type="string"/>
+            <element name="transparency">
+                <simpleType>
+                    <restriction base="integer">
+                        <minExclusive value="0"/>
+                        <maxExclusive value="100"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="edgesCount">
+                <simpleType>
+                    <restriction base="integer">
+                        <minExclusive value="4"/>
+                        <maxExclusive value="15"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+
+    <complexType name="Gem">
+        <sequence>
+            <element name="preciousnes" type="tns:Preciousnes"/>
+            <element name="origin" type="string"/>
+            <element name="visualParameter" type="tns:VisualParameter" minOccurs="0" maxOccurs="unbounded"/>
+            <element name="value" type="double"/>
+            <element name="date" type="date"/>
+            <element name="time" type="time"/>
+        </sequence>
+        <attribute name="name" use="required">
+            <simpleType>
+                <restriction base="ID"/>
+            </simpleType>
+        </attribute>
+    </complexType>
+</schema>

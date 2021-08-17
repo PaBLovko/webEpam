@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Gems>
+    <Gem name="Diamond">
+        <preciousnes>precious</preciousnes>
+        <origin>Canada</origin>
+        <visualParameter>
+            <color>yellow</color>
+            <transparency>90</transparency>
+            <edgesCount>14</edgesCount>
+        </visualParameter>
+        <value>50</value>
+        <date>2000-10-07</date>
+        <time>05:35:55</time>
+    </Gem>
+</Gems>

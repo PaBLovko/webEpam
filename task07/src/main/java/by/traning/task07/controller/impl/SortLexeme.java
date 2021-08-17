@@ -2,7 +2,6 @@ package by.traning.task07.controller.impl;
 
 import by.traning.task07.controller.Command;
 import by.traning.task07.service.SortService;
-import by.traning.task07.service.exception.ServiceException;
 import by.traning.task07.service.factory.ServiceFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

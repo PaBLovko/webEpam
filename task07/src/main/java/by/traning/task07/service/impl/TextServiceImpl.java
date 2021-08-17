@@ -12,34 +12,48 @@ import by.traning.task07.service.parser.*;
 import by.traning.task07.service.parser.impl.*;
 import by.traning.task07.service.repository.Repository;
 import by.traning.task07.service.repository.impl.RepositoryImpl;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 import java.util.Map;
 
 public class TextServiceImpl implements TextService {
     private Repository repository = new RepositoryImpl();
+    private static Logger logger = LogManager.getLogger(TextServiceImpl.class);
+    /**
+     * The string literal describing that method is invoked
+     */
+    private static final String METHOD_IS_INVOKED = "The method is invoked";
+
+    /**
+     * The string literal describing that method worked correctly
+     */
+    private static final String THE_METHOD_WORKED_CORRECTLY = "The method worked correctly";
+
+    /**
+     * The string literal describing that method is exception
+     */
+    private static final String ERROR_FIND = "Error during found";
 
     @Override
     public Map<Integer, Component> receiveTextCollection() {
+        logger.debug(METHOD_IS_INVOKED);
         Map<Integer, Component> result = repository.receiveTextCollection();
-        return result;
-    }
-
-    @Override
-    public String joinTree(Component component) {
-        String temp = component.collect();
-        String result = temp.substring(0, temp.length() - 1);
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
         return result;
     }
 
     @Override
     public Component createTree(String pathname) throws ServiceException {
+        logger.debug(METHOD_IS_INVOKED);
         DAOFactory factory = DAOFactory.getInstance();
         TextDAO textDAO = factory.getFileTextDAO();
         List<String> strings;
         try {
             strings = textDAO.readFile(pathname);
         } catch (DAOException e) {
+            logger.error(ERROR_FIND);
             throw new ServiceException(e);
         }
         Composite text = new Composite(Type.TEXT);
@@ -58,6 +72,7 @@ public class TextServiceImpl implements TextService {
         Handler parser = new ParagraphParser(parser2);
         parser.handleSplit(text, content);
         repository.addTextObject(text);
+        logger.info(THE_METHOD_WORKED_CORRECTLY);
         return text;
     }
 }
