@@ -59,7 +59,7 @@ public class Composite implements Component {
     }
 
     @Override
-    public String collect() {
+    public String collect() { //TODO :enum delimt or switch
         StringBuilder stringBuilder = new StringBuilder();
         for (Component component : components) {
             stringBuilder.append(component.collect());

@@ -64,12 +64,12 @@ public class TextServiceImpl implements TextService {
         }
         stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         String content = stringBuilder.toString();
-        Handler parser6 = new CharacterParser();
-        Handler parser5 = new MarkParser(parser6);
-        Handler parser4 = new WordParser(parser6);
-        Handler parser3 = new LexemeParser(parser4, parser5);
-        Handler parser2 = new SentenceParser(parser3);
-        Handler parser = new ParagraphParser(parser2);
+        Handler characterParser = new CharacterParser();
+        Handler markParser = new MarkParser(characterParser);
+        Handler wordParser = new WordParser(characterParser);
+        Handler lexemeParser = new LexemeParser(wordParser, markParser);
+        Handler sentenceParser = new SentenceParser(lexemeParser);
+        Handler parser = new ParagraphParser(characterParser);
         parser.handleSplit(text, content);
         repository.addTextObject(text);
         logger.info(THE_METHOD_WORKED_CORRECTLY);
