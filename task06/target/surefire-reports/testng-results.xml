@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="34" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-14T17:32:03 MSK" name="Command line suite" finished-at="2021-07-14T17:32:03 MSK" duration-ms="202">
+    <groups>
+    </groups>
+    <test started-at="2021-07-14T17:32:03 MSK" name="Command line test" finished-at="2021-07-14T17:32:03 MSK" duration-ms="202">
+      <class name="by.traning.task06.service.creator.MatrixCreatorTest">
+        <test-method signature="creatorNegativeTest([I)[pri:0, instance:by.traning.task06.service.creator.MatrixCreatorTest@732d0d24]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a matrix" data-provider="negativeDataForCreateMatrix" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@46268f08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorNegativeTest([I)[pri:0, instance:by.traning.task06.service.creator.MatrixCreatorTest@732d0d24]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a matrix" data-provider="negativeDataForCreateMatrix" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2654635]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorNegativeTest([I)[pri:0, instance:by.traning.task06.service.creator.MatrixCreatorTest@732d0d24]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a matrix" data-provider="negativeDataForCreateMatrix" finished-at="2021-07-14T17:32:03 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7203c7ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorNegativeTest([I)[pri:0, instance:by.traning.task06.service.creator.MatrixCreatorTest@732d0d24]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a matrix" data-provider="negativeDataForCreateMatrix" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@39fcbef6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorTest([I,by.traning.task06.bean.Matrix)[pri:0, instance:by.traning.task06.service.creator.MatrixCreatorTest@732d0d24]" started-at="2021-07-14T17:32:03 MSK" name="creatorTest" description="Positive script of the creating a matrix" data-provider="positiveDataForCreateMatrix" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2a76840c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matrix(values=[[null, null, null], [null, null, null], [null, null, null]])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorTest -->
+      </class> <!-- by.traning.task06.service.creator.MatrixCreatorTest -->
+      <class name="by.traning.task06.service.creator.FileCreatorTest">
+        <test-method signature="creatorNegativeTest(java.lang.String)[pri:0, instance:by.traning.task06.service.creator.FileCreatorTest@6bf08014]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a file" data-provider="negativeDataForCreateFile" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorNegativeTest(java.lang.String)[pri:0, instance:by.traning.task06.service.creator.FileCreatorTest@6bf08014]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a file" data-provider="negativeDataForCreateFile" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorTest(java.lang.String,by.traning.task06.bean.FileData)[pri:0, instance:by.traning.task06.service.creator.FileCreatorTest@6bf08014]" started-at="2021-07-14T17:32:03 MSK" name="creatorTest" description="Positive script of the creating a file" data-provider="positiveDataForCreateFile" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/resources/arrayFileTest.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FileData(pathFromContentRoot=src/main/resources/arrayFileTest.txt, file=src\main\resources\arrayFileTest.txt)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorTest -->
+      </class> <!-- by.traning.task06.service.creator.FileCreatorTest -->
+      <class name="by.traning.task06.service.ArrayServiceSortTest">
+        <test-method signature="bubbleSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="bubbleSortTest" description="Positive script of the bubble sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[6, 27, 10, 2, 14, 14, 15])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 6, 10, 14, 14, 15, 27])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bubbleSortTest -->
+        <test-method signature="hashingSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="hashingSortTest" description="Positive script of the hashing sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[8, 18, 22, 29, 28, 2, 7])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 7, 8, 18, 22, 28, 29])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hashingSortTest -->
+        <test-method signature="insertionSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="insertionSortTest" description="Positive script of the insertion sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[14, 19, 7, 23, 7, 6, 3])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[3, 6, 7, 7, 14, 19, 23])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertionSortTest -->
+        <test-method signature="mergeSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="mergeSortTest" description="Positive script of the binary merge sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[14, 23, 16, 2, 18, 12, 17])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 12, 14, 16, 17, 18, 23])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeSortTest -->
+        <test-method signature="selectionSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="selectionSortTest" description="Positive script of the selection sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[2, 2, 10, 19, 4, 19, 9])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 2, 4, 9, 10, 19, 19])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectionSortTest -->
+        <test-method signature="shakerSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="shakerSortTest" description="Positive script of the shaker sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[18, 29, 29, 10, 2, 10, 5])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 5, 10, 10, 18, 29, 29])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shakerSortTest -->
+        <test-method signature="shellSortTest(by.traning.task06.bean.Array,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.ArrayServiceSortTest@10f7f7de]" started-at="2021-07-14T17:32:03 MSK" name="shellSortTest" description="Positive script of the shell sorted" data-provider="input_a_b" finished-at="2021-07-14T17:32:03 MSK" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Array(values=[10, 7, 2, 10, 8, 26, 26])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[2, 7, 8, 10, 10, 26, 26])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shellSortTest -->
+      </class> <!-- by.traning.task06.service.ArrayServiceSortTest -->
+      <class name="by.traning.task06.DAO.impl.FileMatrixDAOTest">
+        <test-method signature="readFileTest(java.util.List,by.traning.task06.bean.FileData)[pri:0, instance:by.traning.task06.DAO.impl.FileMatrixDAOTest@1672fe87]" started-at="2021-07-14T17:32:03 MSK" name="readFileTest" description="Positive script for reading the file" data-provider="positiveDataForReadFile" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[by.traning.task06.service.exception.ServiceException: wrong path]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: by.traning.task06.service.exception.ServiceException: wrong path
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: by.traning.task06.service.exception.ServiceException: wrong path
+at by.traning.task06.service.creator.FileCreator.create(FileCreator.java:28)
+at by.traning.task06.DAO.impl.FileMatrixDAOTest.createDataForReadFile(FileMatrixDAOTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFileTest -->
+      </class> <!-- by.traning.task06.DAO.impl.FileMatrixDAOTest -->
+      <class name="by.traning.task06.DAO.impl.FileArrayDAOTest">
+        <test-method signature="readFileTest(java.util.List,by.traning.task06.bean.FileData)[pri:0, instance:by.traning.task06.DAO.impl.FileArrayDAOTest@3c01cfa1]" started-at="2021-07-14T17:32:03 MSK" name="readFileTest" description="Positive script for reading the file" data-provider="positiveDataForReadFile" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[by.traning.task06.service.exception.ServiceException: wrong path]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: by.traning.task06.service.exception.ServiceException: wrong path
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: by.traning.task06.service.exception.ServiceException: wrong path
+at by.traning.task06.service.creator.FileCreator.create(FileCreator.java:28)
+at by.traning.task06.DAO.impl.FileArrayDAOTest.createDataForReadFile(FileArrayDAOTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFileTest -->
+      </class> <!-- by.traning.task06.DAO.impl.FileArrayDAOTest -->
+      <class name="by.traning.task06.service.MatrixServiceSortTest">
+        <test-method signature="multiplyNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="multiplyNegativeTest" description="Negative script of the multiply" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@28ec166e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyNegativeTest -->
+        <test-method signature="multiplyNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="multiplyNegativeTest" description="Negative script of the multiply" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@2da59753]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyNegativeTest -->
+        <test-method signature="multiplyNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="multiplyNegativeTest" description="Negative script of the multiply" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@67304a40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyNegativeTest -->
+        <test-method signature="multiplyNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="multiplyNegativeTest" description="Negative script of the multiply" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@49c6c24f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyNegativeTest -->
+        <test-method signature="multiplyTest([Lby.traning.task06.bean.Matrix;,by.traning.task06.bean.Matrix)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="multiplyTest" description="Positive script of the multiply" data-provider="input_a_b_multiply" finished-at="2021-07-14T17:32:03 MSK" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@4ce7fffa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matrix(values=[[180, 212, 244, 276], [120, 140, 160, 180], [46, 60, 74, 88], [54, 64, 74, 84]])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method signature="subtractionNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionNegativeTest" description="Negative script of the subtraction" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@66565121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionNegativeTest -->
+        <test-method signature="subtractionNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionNegativeTest" description="Negative script of the subtraction" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@74eb909f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionNegativeTest -->
+        <test-method signature="subtractionNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionNegativeTest" description="Negative script of the subtraction" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@495b0487]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionNegativeTest -->
+        <test-method signature="subtractionTest([Lby.traning.task06.bean.Matrix;,by.traning.task06.bean.Matrix)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionTest" description="Positive script of the subtraction" data-provider="input_a_b_subtraction" finished-at="2021-07-14T17:32:03 MSK" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@5629510]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matrix(values=[[4, 5, 0, 13], [6, -2, -2, 8], [3, -5, -5, -5], [-8, -8, -8, -8]])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionTest -->
+        <test-method signature="subtractionNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionNegativeTest" description="Negative script of the subtraction" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@737a135b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionNegativeTest -->
+        <test-method signature="subtractionTest([Lby.traning.task06.bean.Matrix;,by.traning.task06.bean.Matrix)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="subtractionTest" description="Positive script of the subtraction" data-provider="input_a_b_subtraction" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@1e636ea3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matrix(values=[[0]])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionTest -->
+        <test-method signature="summationNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="summationNegativeTest" description="Negative script of the summation" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@495fac5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summationNegativeTest -->
+        <test-method signature="summationNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="summationNegativeTest" description="Negative script of the summation" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@6179e425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summationNegativeTest -->
+        <test-method signature="summationNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="summationNegativeTest" description="Negative script of the summation" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@3da05287]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summationNegativeTest -->
+        <test-method signature="summationNegativeTest([Lby.traning.task06.bean.Matrix;)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="summationNegativeTest" description="Negative script of the summation" data-provider="input_a_b_negative" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@6fe1b4fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summationNegativeTest -->
+        <test-method signature="summationTest([Lby.traning.task06.bean.Matrix;,by.traning.task06.bean.Matrix)[pri:0, instance:by.traning.task06.service.MatrixServiceSortTest@6ee4d9ab]" started-at="2021-07-14T17:32:03 MSK" name="summationTest" description="Positive script of the summation" data-provider="input_a_b_summation" finished-at="2021-07-14T17:32:03 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task06.bean.Matrix;@76012793]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matrix(values=[[6, 9, 6, 21], [8, 2, 4, 16], [13, 7, 9, 11], [10, 12, 14, 16]])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summationTest -->
+      </class> <!-- by.traning.task06.service.MatrixServiceSortTest -->
+      <class name="by.traning.task06.service.creator.ArrayCreatorTest">
+        <test-method signature="creatorNegativeTest(int)[pri:0, instance:by.traning.task06.service.creator.ArrayCreatorTest@50dfbc58]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a array" data-provider="negativeDataForCreateArray" finished-at="2021-07-14T17:32:03 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorNegativeTest(int)[pri:0, instance:by.traning.task06.service.creator.ArrayCreatorTest@50dfbc58]" started-at="2021-07-14T17:32:03 MSK" name="creatorNegativeTest" description="Negative script of the creating a array" data-provider="negativeDataForCreateArray" finished-at="2021-07-14T17:32:03 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorNegativeTest -->
+        <test-method signature="creatorTest(int,by.traning.task06.bean.Array)[pri:0, instance:by.traning.task06.service.creator.ArrayCreatorTest@50dfbc58]" started-at="2021-07-14T17:32:03 MSK" name="creatorTest" description="Positive script of the creating a array" data-provider="positiveDataForCreateArray" finished-at="2021-07-14T17:32:03 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Array(values=[null, null, null])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatorTest -->
+      </class> <!-- by.traning.task06.service.creator.ArrayCreatorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

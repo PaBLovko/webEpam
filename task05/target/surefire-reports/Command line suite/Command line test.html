@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>46/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 02 01:54:13 MSK 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (152 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest.areaCalculatorTest()'><b>areaCalculatorTest</b><br>Test class: by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest<br>Test method: Positive script of the area calculator<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null), 5.65</td>
+<td><div><pre>java.lang.AssertionError: expected [5.65] but found [90.99999999999996]
+	at by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest.areaCalculatorTest(ParallelogramCalculatorActionTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace790487766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace790487766'><pre>java.lang.AssertionError: expected [5.65] but found [90.99999999999996]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:671)
+	at org.testng.Assert.assertEquals(Assert.java:684)
+	at by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest.areaCalculatorTest(ParallelogramCalculatorActionTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>0</td>
+<td>by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest@6057aebb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.fileQuadrilateralDAONegativeTest()'><b>fileQuadrilateralDAONegativeTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Negative script of read<br>Parameters: file/point1.txt</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest<br>Test method: Negative script of the check quadrilateral<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@2654635</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546</td></tr>
+<tr>
+<td title='by.traning.task05.service.action.CalculatorHelperTest.slopeTest()'><b>slopeTest</b><br>Test class: by.traning.task05.service.action.CalculatorHelperTest<br>Test method: Positive script of the check slope<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@737a135b, 1</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.action.CalculatorHelperTest@332729ad</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.PointValidatorTest.isValidPointNegativeTest()'><b>isValidPointNegativeTest</b><br>Test class: by.traning.task05.service.validator.PointValidatorTest<br>Test method: Negative script of the check point<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.PointValidatorTest@7ceb3185</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest<br>Test method: Negative script of the check trapezoid<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.fileQuadrilateralDAOTest()'><b>fileQuadrilateralDAOTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Positive script of read<br>Parameters: file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5]</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest<br>Test method: Negative script of the check rectangle<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest<br>Test method: Negative script of the check square<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.NumericValueValidatorTest.isNumericNegativeTest()'><b>isNumericNegativeTest</b><br>Test class: by.traning.task05.service.validator.NumericValueValidatorTest<br>Test method: Negative script of the check number<br>Parameters: 4400Done</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.NumericValueValidatorTest@3148f668</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.NumericValueValidatorTest.isNumericNegativeTest()'><b>isNumericNegativeTest</b><br>Test class: by.traning.task05.service.validator.NumericValueValidatorTest<br>Test method: Negative script of the check number<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.NumericValueValidatorTest@3148f668</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.isNumericNegativeTest()'><b>isNumericNegativeTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Negative script of save<br>Parameters: null, null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest<br>Test method: Negative script of the check parallelogram<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest<br>Test method: Positive script of the check rectangle<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(coordinateX=1, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=1, coordinateY=-3), pointD=Quadrilateral.Point(coordinateX=-5, coordinateY=-3), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest<br>Test method: Negative script of the check rhombus<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest.isThreePointsOnSameLineNegativeTest()'><b>isThreePointsOnSameLineNegativeTest</b><br>Test class: by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest<br>Test method: Negative script of the check point on a line<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@687ef2e0</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest<br>Test method: Negative script of the check trapezoid<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest<br>Test method: Negative script of the check convex square<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@15dcfae7</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest<br>Test method: Positive script of the check square<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointD=Quadrilateral.Point(coordinateX=10, coordinateY=10), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest<br>Test method: Negative script of the check quadrilateral<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@3da05287</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest<br>Test method: Positive script of the check convex square<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@1e636ea3</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.NumericValueValidatorTest.isNumericTest()'><b>isNumericTest</b><br>Test class: by.traning.task05.service.validator.NumericValueValidatorTest<br>Test method: Positive script of the check number<br>Parameters: -2147483648</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.NumericValueValidatorTest@3148f668</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.NumericValueValidatorTest.isNumericTest()'><b>isNumericTest</b><br>Test class: by.traning.task05.service.validator.NumericValueValidatorTest<br>Test method: Positive script of the check number<br>Parameters: 2147483647</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.NumericValueValidatorTest@3148f668</td></tr>
+<tr>
+<td title='by.traning.task05.service.action.CalculatorHelperTest.distanceTest()'><b>distanceTest</b><br>Test class: by.traning.task05.service.action.CalculatorHelperTest<br>Test method: Positive script of the check distance<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@115667d, 5.65</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.action.CalculatorHelperTest@332729ad</td></tr>
+<tr>
+<td title='by.traning.task05.service.observer.impl.ObserverQuadrilateralTest.updateTest()'><b>updateTest</b><br>Test class: by.traning.task05.service.observer.impl.ObserverQuadrilateralTest<br>Test method: Initial creation of the object<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.observer.impl.ObserverQuadrilateralTest@7fbdb894</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.PointValidatorTest.isValidPointTest()'><b>isValidPointTest</b><br>Test class: by.traning.task05.service.validator.PointValidatorTest<br>Test method: Positive script of the check point<br>Parameters: [Ljava.lang.String;@736caf7a</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.PointValidatorTest@7ceb3185</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.PointValidatorTest.isValidPointTest()'><b>isValidPointTest</b><br>Test class: by.traning.task05.service.validator.PointValidatorTest<br>Test method: Positive script of the check point<br>Parameters: [Ljava.lang.String;@4ce7fffa</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.PointValidatorTest@7ceb3185</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.isNumericNegativeTest()'><b>isNumericNegativeTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Negative script of save<br>Parameters: [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5], null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.PointValidatorTest.isValidPointNegativeTest()'><b>isValidPointNegativeTest</b><br>Test class: by.traning.task05.service.validator.PointValidatorTest<br>Test method: Negative script of the check point<br>Parameters: [Ljava.lang.String;@497486b3</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.PointValidatorTest@7ceb3185</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest<br>Test method: Negative script of the check rhombus<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.fileQuadrilateralDAONegativeTest()'><b>fileQuadrilateralDAONegativeTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Negative script of read<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest<br>Test method: Negative script of the check rectangle<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest.isThreePointsOnSameLineNegativeTest()'><b>isThreePointsOnSameLineNegativeTest</b><br>Test class: by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest<br>Test method: Negative script of the check point on a line<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@63f8276e</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest<br>Test method: Negative script of the check convex square<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@75f95314</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest.isThreePointsOnSameLineTest()'><b>isThreePointsOnSameLineTest</b><br>Test class: by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest<br>Test method: Positive script of the check point on a line<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@6127a7e</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.isNumericNegativeTest()'><b>isNumericNegativeTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Negative script of save<br>Parameters: null, file/point1.txt</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.observer.impl.ObserverQuadrilateralTest.getQuadrilateralParameterByItemIdTest()'><b>getQuadrilateralParameterByItemIdTest</b><br>Test class: by.traning.task05.service.observer.impl.ObserverQuadrilateralTest<br>Test method: Initial creation of the object<br>Parameters: QuadrilateralParameter[perimeter=40.0, area=100.0]</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.observer.impl.ObserverQuadrilateralTest@7fbdb894</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.NumericValueValidatorTest.isNumericTest()'><b>isNumericTest</b><br>Test class: by.traning.task05.service.validator.NumericValueValidatorTest<br>Test method: Positive script of the check number<br>Parameters: 4400</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.NumericValueValidatorTest@3148f668</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest<br>Test method: Negative script of the check parallelogram<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0</td></tr>
+<tr>
+<td title='by.traning.task05.dao.impl.FileQuadrilateralDAOTest.isNumericTest()'><b>isNumericTest</b><br>Test class: by.traning.task05.dao.impl.FileQuadrilateralDAOTest<br>Test method: Positive script of save<br>Parameters: [Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=2, coordinateY=3), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=5), pointD=Quadrilateral.Point(coordinateX=6, coordinateY=4), quadrilateralId=null), Quadrilateral(pointA=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=10), pointD=Quadrilateral.Point(coordinateX=20, coordinateY=10), quadrilateralId=null)], file/point2.txt, [1.5 2.3 4.5 6.4, 10.20 20.20 10.10 20.10]</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014</td></tr>
+<tr>
+<td title='by.traning.task05.service.observer.impl.ObservableQuadrilateralTest.returnFalseIfTheUpdateNotifyWorks()'><b>returnFalseIfTheUpdateNotifyWorks</b><br>Test class: by.traning.task05.service.observer.impl.ObservableQuadrilateralTest<br>Test method: Test will fail if the notify works and the.comment quadrilateral.addObserver(QuadrilateralObserver.getInstance()); to check the results</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.observer.impl.ObservableQuadrilateralTest@4e423aa2</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest.isConvexNegativeTest()'><b>isConvexNegativeTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest<br>Test method: Negative script of the check square<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest<br>Test method: Positive script of the check parallelogram<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest<br>Test method: Positive script of the check rhombus<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(coordinateX=7, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=5, coordinateY=2), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=5), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3</td></tr>
+<tr>
+<td title='by.traning.task05.service.action.CalculatorHelperTest.triangleAreaTest()'><b>triangleAreaTest</b><br>Test class: by.traning.task05.service.action.CalculatorHelperTest<br>Test method: Positive script of the check triangle area<br>Parameters: [D@4dd02341, 428</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.action.CalculatorHelperTest@332729ad</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest<br>Test method: Positive script of the check quadrilateral<br>Parameters: [Lby.traning.task05.bean.Quadrilateral$Point;@3212a8d7</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546</td></tr>
+<tr>
+<td title='by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest.isConvexTest()'><b>isConvexTest</b><br>Test class: by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest<br>Test method: Positive script of the check trapezoid<br>Parameters: Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point(coordinateX=5, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-4, coordinateY=-9), quadrilateralId=null)</td>
+<td></td>
+<td>0</td>
+<td>by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c</td></tr>
+</table><p>
+</body>
+</html>

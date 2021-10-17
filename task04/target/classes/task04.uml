@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/eightsem/epam/webEpam/task04/src/main/java/by/traning/task04</OriginalElement>
+  <nodes>
+    <node x="292.68488128491515" y="91.0">by.traning.task04.bean.Car</node>
+    <node x="140.54166666666674" y="0.0">by.traning.task04.dao.exception.DAOException</node>
+    <node x="469.18488128491515" y="91.0">by.traning.task04.service.creator.EngineCreator</node>
+    <node x="499.06666666666683" y="194.0">by.traning.task04.service.creator.CarCreator</node>
+    <node x="1229.6494995344517" y="400.0">by.traning.task04.MessageManager</node>
+    <node x="429.16666666666674" y="0.0">by.traning.task04.bean.Wheel</node>
+    <node x="786.4342295158287" y="533.0">by.traning.task04.controller.impl.CarRun</node>
+    <node x="1760.6342295158288" y="729.0">by.traning.task04.view.factory.ViewFactory</node>
+    <node x="890.750151303538" y="646.0">by.traning.task04.controller.CommandProvider</node>
+    <node x="987.8994995344517" y="400.0">by.traning.task04.service.factory.ServiceFactory</node>
+    <node x="1142.2342295158287" y="194.0">by.traning.task04.service.CarService</node>
+    <node x="1075.4342295158287" y="533.0">by.traning.task04.controller.impl.Exit</node>
+    <node x="1825.3842295158288" y="646.0">by.traning.task04.view.impl.ConsoleView</node>
+    <node x="1343.8842295158288" y="533.0">by.traning.task04.controller.impl.CarWheelChange</node>
+    <node x="1588.2501513035381" y="812.0">by.traning.task04.Main</node>
+    <node x="905.4342295158287" y="533.0">by.traning.task04.controller.impl.WrongRequest</node>
+    <node x="1530.8842295158288" y="533.0">by.traning.task04.controller.impl.CarRefuel</node>
+    <node x="1666.8842295158288" y="533.0">by.traning.task04.controller.impl.CarNameReceive</node>
+    <node x="309.54166666666674" y="0.0">by.traning.task04.bean.Engine</node>
+    <node x="14.541666666666742" y="0.0">by.traning.task04.dao.CarDAO</node>
+    <node x="642.0666666666668" y="194.0">by.traning.task04.service.action.CarServiceAction</node>
+    <node x="605.4342295158287" y="533.0">by.traning.task04.controller.CommandName</node>
+    <node x="534.4342295158287" y="400.0">by.traning.task04.controller.Command</node>
+    <node x="417.375151303538" y="317.0">by.traning.task04.service.impl.CarServiceImpl</node>
+    <node x="914.750151303538" y="729.0">by.traning.task04.controller.Controller</node>
+    <node x="1851.8842295158288" y="533.0">by.traning.task04.view.View</node>
+    <node x="718.7342295158288" y="0.0">by.traning.task04.service.exception.ServiceException</node>
+    <node x="0.0" y="194.0">by.traning.task04.dao.factory.DAOFactory</node>
+    <node x="39.000000000000114" y="91.0">by.traning.task04.dao.impl.FileCarDAO</node>
+    <node x="1171.4342295158287" y="533.0">by.traning.task04.controller.impl.CarAll</node>
+    <node x="665.9348812849151" y="91.0">by.traning.task04.service.creator.WheelCreator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.traning.task04.service.action.CarServiceAction" target="by.traning.task04.service.exception.ServiceException" relationship="CREATE">
+      <point x="3.333333331738686E-4" y="-15.5" />
+      <point x="724.067" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.Main" target="by.traning.task04.view.View" relationship="DEPENDENCY">
+      <point x="15.0" y="-15.5" />
+      <point x="1645.7501513035381" y="602.0" />
+      <point x="1893.8842295158288" y="602.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarAll" target="by.traning.task04.service.exception.ServiceException" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="1217.434" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.service.creator.CarCreator" relationship="CREATE">
+      <point x="13.691515363128815" y="-15.5" />
+      <point x="-54.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.Exit" relationship="CREATE">
+      <point x="88.00000000000011" y="0.0" />
+      <point x="1113.4342295158287" y="661.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarWheelChange" target="by.traning.task04.service.CarService" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="15.5" />
+      <point x="1426.884" y="587.0" />
+      <point x="1294.0" y="587.0" />
+      <point x="1294.0" y="860.5" />
+      <point x="1979.884" y="860.5" />
+      <point x="1979.884" y="209.5" />
+      <point x="60.49977048417122" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRefuel" target="by.traning.task04.service.CarService" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="15.5" />
+      <point x="1588.884" y="587.0" />
+      <point x="1294.0" y="587.0" />
+      <point x="1294.0" y="860.5" />
+      <point x="1979.884" y="860.5" />
+      <point x="1979.884" y="209.5" />
+      <point x="60.49977048417122" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarNameReceive" target="by.traning.task04.service.factory.ServiceFactory" relationship="DEPENDENCY">
+      <point x="44.99977048417122" y="-15.5" />
+      <point x="1794.384" y="414.0" />
+      <point x="1623.0" y="414.0" />
+      <point x="1623.0" y="378.0" />
+      <point x="1061.399" y="378.0" />
+      <point x="-4.995344518192724E-4" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarWheelChange" target="by.traning.task04.service.factory.ServiceFactory" relationship="DEPENDENCY">
+      <point x="29.999770484171222" y="-15.5" />
+      <point x="1456.884" y="414.0" />
+      <point x="1623.0" y="414.0" />
+      <point x="1623.0" y="378.0" />
+      <point x="1061.399" y="378.0" />
+      <point x="-4.995344518192724E-4" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRefuel" target="by.traning.task04.service.factory.ServiceFactory" relationship="DEPENDENCY">
+      <point x="49.11577048417121" y="-15.5" />
+      <point x="1638.0" y="414.0" />
+      <point x="1623.0" y="414.0" />
+      <point x="1623.0" y="378.0" />
+      <point x="1061.399" y="378.0" />
+      <point x="-4.995344518192724E-4" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.CarCreator" target="by.traning.task04.service.creator.EngineCreator" relationship="CREATE">
+      <point x="15.000333333333174" y="-15.5" />
+      <point x="33.38211871508486" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.WrongRequest" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="980.434" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.CarNameReceive" relationship="CREATE">
+      <point x="71.50000000000011" y="15.5" />
+      <point x="1050.2501513035381" y="890.5" />
+      <point x="1734.384" y="890.5" />
+      <point x="-15.000229515828778" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.dao.factory.DAOFactory" target="by.traning.task04.dao.CarDAO" relationship="TO_ONE">
+      <point x="-44.499999999999886" y="-15.5" />
+      <point x="-46.04166666666663" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.CarCreator" target="by.traning.task04.bean.Wheel" relationship="DEPENDENCY">
+      <point x="54.000333333333174" y="-15.5" />
+      <point x="614.567" y="140.0" />
+      <point x="451.685" y="140.0" />
+      <point x="-24.48166666666674" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.action.CarServiceAction" target="by.traning.task04.bean.Wheel" relationship="DEPENDENCY">
+      <point x="28.368333333333112" y="-15.5" />
+      <point x="752.435" y="140.0" />
+      <point x="451.685" y="140.0" />
+      <point x="-24.48166666666674" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.action.CarServiceAction" target="by.traning.task04.bean.Car" relationship="DEPENDENCY">
+      <point x="-14.999666666666826" y="-15.5" />
+      <point x="709.067" y="176.0" />
+      <point x="384.0" y="176.0" />
+      <point x="384.0" y="106.5" />
+      <point x="37.00011871508485" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRefuel" target="by.traning.task04.service.exception.ServiceException" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="1588.884" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.CarRun" relationship="CREATE">
+      <point x="-81.5" y="15.5" />
+      <point x="897.250151303538" y="890.5" />
+      <point x="850.934" y="890.5" />
+      <point x="14.999770484171222" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarAll" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="45.99977048417122" y="0.0" />
+      <point x="1287.0" y="548.5" />
+      <point x="1287.0" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.EngineCreator" target="by.traning.task04.bean.Engine" relationship="CREATE">
+      <point x="1.1871508479543991E-4" y="-15.5" />
+      <point x="542.185" y="61.0" />
+      <point x="358.042" y="61.0" />
+      <point x="3.33333333230712E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.view.factory.ViewFactory" target="by.traning.task04.view.impl.ConsoleView" relationship="CREATE">
+      <point x="6.25" y="-15.5" />
+      <point x="-61.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.CarAll" relationship="CREATE">
+      <point x="45.0" y="-15.5" />
+      <point x="1023.750151303538" y="617.0" />
+      <point x="1232.434" y="617.0" />
+      <point x="14.999770484171222" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.service.action.CarServiceAction" relationship="CREATE">
+      <point x="67.69184869646199" y="-15.5" />
+      <point x="560.567" y="287.5" />
+      <point x="709.067" y="287.5" />
+      <point x="-14.999666666666826" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.Main" target="by.traning.task04.controller.Controller" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="1630.7501513035381" y="744.5" />
+      <point x="59.000000000000114" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRun" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="850.934" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.view.impl.ConsoleView" target="by.traning.task04.view.View" relationship="REALIZATION">
+      <point x="15.0" y="-15.5" />
+      <point x="15.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.action.CarServiceAction" target="by.traning.task04.service.creator.WheelCreator" relationship="CREATE">
+      <point x="3.333333331738686E-4" y="15.5" />
+      <point x="724.067" y="257.5" />
+      <point x="841.435" y="257.5" />
+      <point x="841.435" y="73.5" />
+      <point x="645.0" y="73.5" />
+      <point x="645.0" y="106.5" />
+      <point x="-71.4998812849152" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRun" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="-15.000229515828778" y="-15.5" />
+      <point x="820.934" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.factory.ServiceFactory" target="by.traning.task04.service.CarService" relationship="TO_ONE">
+      <point x="73.5" y="0.0" />
+      <point x="1187.434" y="415.5" />
+      <point x="-15.300229515828732" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarWheelChange" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="1441.884" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.CarWheelChange" relationship="CREATE">
+      <point x="30.0" y="-15.5" />
+      <point x="1008.750151303538" y="602.0" />
+      <point x="1441.884" y="602.0" />
+      <point x="14.999770484171222" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.dao.factory.DAOFactory" target="by.traning.task04.dao.impl.FileCarDAO" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="-37.500000000000114" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.service.CarService" relationship="REALIZATION">
+      <point x="52.69184869646199" y="-15.5" />
+      <point x="545.567" y="272.5" />
+      <point x="1202.434" y="272.5" />
+      <point x="-0.3002295158287325" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.dao.factory.DAOFactory" relationship="DEPENDENCY">
+      <point x="14.999848696461981" y="15.5" />
+      <point x="507.875" y="875.5" />
+      <point x="-32.5" y="875.5" />
+      <point x="-32.5" y="209.5" />
+      <point x="-66.0" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.Controller" target="by.traning.task04.controller.CommandProvider" relationship="TO_ONE">
+      <point x="34.99984869646198" y="-15.5" />
+      <point x="29.99984869646198" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.WrongRequest" relationship="CREATE">
+      <point x="-15.0" y="-15.5" />
+      <point x="-16.68407821229073" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRefuel" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="-15.000229515828778" y="-15.5" />
+      <point x="1573.884" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.WheelCreator" target="by.traning.task04.bean.Wheel" relationship="CREATE">
+      <point x="-14.999881284915205" y="15.5" />
+      <point x="722.435" y="140.0" />
+      <point x="451.685" y="140.0" />
+      <point x="-24.48166666666674" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.dao.impl.FileCarDAO" target="by.traning.task04.dao.CarDAO" relationship="REALIZATION">
+      <point x="-35.95833333333337" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.CommandName" relationship="TO_MANY">
+      <point x="0.0" y="-15.5" />
+      <point x="978.750151303538" y="602.0" />
+      <point x="700.9342295158287" y="602.0" />
+      <point x="15.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRun" target="by.traning.task04.service.CarService" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="15.5" />
+      <point x="835.934" y="587.0" />
+      <point x="1294.0" y="587.0" />
+      <point x="1294.0" y="860.5" />
+      <point x="1979.884" y="860.5" />
+      <point x="1979.884" y="209.5" />
+      <point x="60.49977048417122" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.Main" target="by.traning.task04.view.factory.ViewFactory" relationship="DEPENDENCY">
+      <point x="42.5" y="0.0" />
+      <point x="1826.6342295158288" y="827.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarWheelChange" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="-83.00022951582878" y="0.0" />
+      <point x="1287.0" y="548.5" />
+      <point x="1287.0" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.Command" relationship="DEPENDENCY">
+      <point x="-1.5130353801851015E-4" y="15.5" />
+      <point x="978.75" y="703.0" />
+      <point x="579.934" y="703.0" />
+      <point x="-15.000229515828778" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.service.exception.ServiceException" relationship="CREATE">
+      <point x="-1.5130353801851015E-4" y="15.5" />
+      <point x="492.875" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.bean.Car" target="by.traning.task04.bean.Engine" relationship="TO_ONE">
+      <point x="0.0" y="-15.5" />
+      <point x="-28.356785381751592" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.Command" relationship="TO_MANY">
+      <point x="-88.0" y="0.0" />
+      <point x="564.934" y="661.5" />
+      <point x="-30.000229515828778" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarAll" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="1232.434" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.factory.ServiceFactory" target="by.traning.task04.service.impl.CarServiceImpl" relationship="CREATE">
+      <point x="-73.5" y="0.0" />
+      <point x="754.067" y="415.5" />
+      <point x="754.067" y="378.0" />
+      <point x="541.9342295158287" y="378.0" />
+      <point x="49.05907821229073" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.dao.impl.FileCarDAO" target="by.traning.task04.dao.exception.DAOException" relationship="CREATE">
+      <point x="-1.1368683772161603E-13" y="15.5" />
+      <point x="103.5" y="140.0" />
+      <point x="215.042" y="140.0" />
+      <point x="3.333333332591337E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.Exit" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="1128.434" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.EngineCreator" target="by.traning.task04.service.exception.ServiceException" relationship="CREATE">
+      <point x="1.1871508479543991E-4" y="15.5" />
+      <point x="542.185" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarNameReceive" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="29.999770484171222" y="-15.5" />
+      <point x="1779.384" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarAll" target="by.traning.task04.service.CarService" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="15.5" />
+      <point x="1217.434" y="587.0" />
+      <point x="1294.0" y="587.0" />
+      <point x="1294.0" y="860.5" />
+      <point x="1979.884" y="860.5" />
+      <point x="1979.884" y="209.5" />
+      <point x="60.49977048417122" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRun" target="by.traning.task04.service.factory.ServiceFactory" relationship="DEPENDENCY">
+      <point x="-30.000229515828778" y="-15.5" />
+      <point x="805.934" y="378.0" />
+      <point x="1061.399" y="378.0" />
+      <point x="-4.995344518192724E-4" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.CarCreator" target="by.traning.task04.bean.Car" relationship="CREATE">
+      <point x="3.333333331738686E-4" y="-15.5" />
+      <point x="560.567" y="176.0" />
+      <point x="384.0" y="176.0" />
+      <point x="384.0" y="106.5" />
+      <point x="37.00011871508485" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarNameReceive" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="1764.384" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.Main" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="-42.50015130353813" y="0.0" />
+      <point x="1309.0" y="827.5" />
+      <point x="1309.0" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.dao.CarDAO" relationship="DEPENDENCY">
+      <point x="75.5" y="0.0" />
+      <point x="1076.399" y="332.5" />
+      <point x="1076.399" y="-62.5" />
+      <point x="67.54166666666674" y="-62.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.CarCreator" target="by.traning.task04.bean.Engine" relationship="DEPENDENCY">
+      <point x="3.333333331738686E-4" y="15.5" />
+      <point x="560.567" y="242.5" />
+      <point x="1061.399" y="242.5" />
+      <point x="1061.399" y="-17.5" />
+      <point x="540.667" y="-17.5" />
+      <point x="540.667" y="61.0" />
+      <point x="358.042" y="61.0" />
+      <point x="3.33333333230712E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarWheelChange" target="by.traning.task04.service.exception.ServiceException" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="1426.884" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.Controller" target="by.traning.task04.controller.CommandProvider" relationship="CREATE">
+      <point x="19.99984869646198" y="-15.5" />
+      <point x="14.999848696461981" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.Exit" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="1113.434" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.bean.Car" target="by.traning.task04.bean.Wheel" relationship="TO_MANY">
+      <point x="0.0" y="15.5" />
+      <point x="329.68488128491515" y="272.5" />
+      <point x="-17.5" y="272.5" />
+      <point x="-17.5" y="-47.5" />
+      <point x="476.16666666666674" y="-47.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.bean.Car" relationship="DEPENDENCY">
+      <point x="-75.50015130353802" y="0.0" />
+      <point x="384.0" y="332.5" />
+      <point x="384.0" y="106.5" />
+      <point x="37.00011871508485" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRun" target="by.traning.task04.service.exception.ServiceException" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="835.934" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.WrongRequest" target="by.traning.task04.controller.Command" relationship="REALIZATION">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="995.434" y="457.0" />
+      <point x="594.934" y="457.0" />
+      <point x="-2.2951582877794863E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.Controller" target="by.traning.task04.controller.Command" relationship="DEPENDENCY">
+      <point x="-1.5130353801851015E-4" y="-15.5" />
+      <point x="973.75" y="703.0" />
+      <point x="579.934" y="703.0" />
+      <point x="-15.000229515828778" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarNameReceive" target="by.traning.task04.service.CarService" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="15.5" />
+      <point x="1749.384" y="587.0" />
+      <point x="1294.0" y="587.0" />
+      <point x="1294.0" y="860.5" />
+      <point x="1979.884" y="860.5" />
+      <point x="1979.884" y="209.5" />
+      <point x="60.49977048417122" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.view.factory.ViewFactory" target="by.traning.task04.view.View" relationship="TO_ONE">
+      <point x="-18.75" y="-15.5" />
+      <point x="1807.8842295158288" y="587.0" />
+      <point x="1878.8842295158288" y="587.0" />
+      <point x="-15.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarAll" target="by.traning.task04.service.factory.ServiceFactory" relationship="DEPENDENCY">
+      <point x="-15.000229515828778" y="-15.5" />
+      <point x="1202.434" y="378.0" />
+      <point x="1061.399" y="378.0" />
+      <point x="-4.995344518192724E-4" y="-15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.impl.CarRefuel" relationship="CREATE">
+      <point x="44.99984869646198" y="15.5" />
+      <point x="1023.75" y="703.0" />
+      <point x="1603.884" y="703.0" />
+      <point x="14.999770484171222" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.impl.CarServiceImpl" target="by.traning.task04.dao.exception.DAOException" relationship="DEPENDENCY">
+      <point x="-64.37515130353802" y="-15.5" />
+      <point x="428.5" y="140.0" />
+      <point x="215.042" y="140.0" />
+      <point x="3.333333332591337E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarRefuel" target="by.traning.task04.MessageManager" relationship="DEPENDENCY">
+      <point x="14.999770484171222" y="-15.5" />
+      <point x="1603.884" y="508.0" />
+      <point x="1314.149" y="508.0" />
+      <point x="-4.995344518192724E-4" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.impl.CarNameReceive" target="by.traning.task04.service.exception.ServiceException" relationship="DEPENDENCY">
+      <point x="-2.2951582877794863E-4" y="-15.5" />
+      <point x="1749.384" y="482.0" />
+      <point x="399.875" y="482.0" />
+      <point x="399.875" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.controller.CommandProvider" target="by.traning.task04.controller.CommandName" relationship="DEPENDENCY">
+      <point x="-30.0" y="-15.5" />
+      <point x="948.750151303538" y="617.0" />
+      <point x="685.9342295158287" y="617.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.CarCreator" target="by.traning.task04.service.creator.WheelCreator" relationship="CREATE">
+      <point x="-14.999666666666826" y="15.5" />
+      <point x="545.567" y="257.5" />
+      <point x="841.435" y="257.5" />
+      <point x="841.435" y="73.5" />
+      <point x="645.0" y="73.5" />
+      <point x="645.0" y="106.5" />
+      <point x="-71.4998812849152" y="0.0" />
+    </edge>
+    <edge source="by.traning.task04.service.creator.WheelCreator" target="by.traning.task04.service.exception.ServiceException" relationship="CREATE">
+      <point x="1.1871508479543991E-4" y="15.5" />
+      <point x="737.435" y="158.0" />
+      <point x="826.435" y="158.0" />
+      <point x="25.70077048417113" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.42509960159362525" showDependencies="true" x="1144.2699156513595" y="462.75445173383343" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

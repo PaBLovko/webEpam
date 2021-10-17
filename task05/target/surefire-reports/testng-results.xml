@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="47" passed="46" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-02T01:54:13 MSK" name="Command line suite" finished-at="2021-07-02T01:54:14 MSK" duration-ms="152">
+    <groups>
+    </groups>
+    <test started-at="2021-07-02T01:54:13 MSK" name="Command line test" finished-at="2021-07-02T01:54:14 MSK" duration-ms="152">
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest">
+        <test-method signature="isConvexNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check quadrilateral" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@3da05287]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check quadrilateral" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@2654635]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest@609db546]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check quadrilateral" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@3212a8d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest -->
+      <class name="by.traning.task05.service.validator.PointValidatorTest">
+        <test-method signature="isValidPointNegativeTest([Ljava.lang.String;)[pri:0, instance:by.traning.task05.service.validator.PointValidatorTest@7ceb3185]" started-at="2021-07-02T01:54:14 MSK" name="isValidPointNegativeTest" description="Negative script of the check point" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@497486b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidPointNegativeTest -->
+        <test-method signature="isValidPointNegativeTest([Ljava.lang.String;)[pri:0, instance:by.traning.task05.service.validator.PointValidatorTest@7ceb3185]" started-at="2021-07-02T01:54:14 MSK" name="isValidPointNegativeTest" description="Negative script of the check point" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidPointNegativeTest -->
+        <test-method signature="isValidPointTest([Ljava.lang.String;)[pri:0, instance:by.traning.task05.service.validator.PointValidatorTest@7ceb3185]" started-at="2021-07-02T01:54:14 MSK" name="isValidPointTest" description="Positive script of the check point" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4ce7fffa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidPointTest -->
+        <test-method signature="isValidPointTest([Ljava.lang.String;)[pri:0, instance:by.traning.task05.service.validator.PointValidatorTest@7ceb3185]" started-at="2021-07-02T01:54:14 MSK" name="isValidPointTest" description="Positive script of the check point" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@736caf7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidPointTest -->
+      </class> <!-- by.traning.task05.service.validator.PointValidatorTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest">
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check trapezoid" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check trapezoid" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest@1bd39d3c]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check trapezoid" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point(coordinateX=5, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-4, coordinateY=-9), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest -->
+      <class name="by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest">
+        <test-method signature="isThreePointsOnSameLineNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96]" started-at="2021-07-02T01:54:14 MSK" name="isThreePointsOnSameLineNegativeTest" description="Negative script of the check point on a line" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@63f8276e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThreePointsOnSameLineNegativeTest -->
+        <test-method signature="isThreePointsOnSameLineNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96]" started-at="2021-07-02T01:54:14 MSK" name="isThreePointsOnSameLineNegativeTest" description="Negative script of the check point on a line" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@687ef2e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThreePointsOnSameLineNegativeTest -->
+        <test-method signature="isThreePointsOnSameLineTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest@119cbf96]" started-at="2021-07-02T01:54:14 MSK" name="isThreePointsOnSameLineTest" description="Positive script of the check point on a line" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@6127a7e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isThreePointsOnSameLineTest -->
+      </class> <!-- by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest">
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check square" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check square" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest@4397ad89]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check square" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointD=Quadrilateral.Point(coordinateX=10, coordinateY=10), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest">
+        <test-method signature="isConvexNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check convex square" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@15dcfae7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check convex square" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@1e636ea3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+        <test-method signature="isConvexNegativeTest([Lby.traning.task05.bean.Quadrilateral$Point;)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest@3561c410]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check convex square" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@75f95314]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest -->
+      <class name="by.traning.task05.service.validator.NumericValueValidatorTest">
+        <test-method signature="isNumericNegativeTest(java.lang.String)[pri:0, instance:by.traning.task05.service.validator.NumericValueValidatorTest@3148f668]" started-at="2021-07-02T01:54:14 MSK" name="isNumericNegativeTest" description="Negative script of the check number" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4400Done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericNegativeTest -->
+        <test-method signature="isNumericTest(java.lang.String)[pri:0, instance:by.traning.task05.service.validator.NumericValueValidatorTest@3148f668]" started-at="2021-07-02T01:54:14 MSK" name="isNumericTest" description="Positive script of the check number" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericTest -->
+        <test-method signature="isNumericNegativeTest(java.lang.String)[pri:0, instance:by.traning.task05.service.validator.NumericValueValidatorTest@3148f668]" started-at="2021-07-02T01:54:14 MSK" name="isNumericNegativeTest" description="Negative script of the check number" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericNegativeTest -->
+        <test-method signature="isNumericTest(java.lang.String)[pri:0, instance:by.traning.task05.service.validator.NumericValueValidatorTest@3148f668]" started-at="2021-07-02T01:54:14 MSK" name="isNumericTest" description="Positive script of the check number" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericTest -->
+        <test-method signature="isNumericTest(java.lang.String)[pri:0, instance:by.traning.task05.service.validator.NumericValueValidatorTest@3148f668]" started-at="2021-07-02T01:54:14 MSK" name="isNumericTest" description="Positive script of the check number" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericTest -->
+      </class> <!-- by.traning.task05.service.validator.NumericValueValidatorTest -->
+      <class name="by.traning.task05.service.observer.impl.ObservableQuadrilateralTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:by.traning.task05.service.observer.impl.ObservableQuadrilateralTest@4e423aa2]" started-at="2021-07-02T01:54:14 MSK" name="init" description="Initial creation of the object" finished-at="2021-07-02T01:54:14 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="returnFalseIfTheUpdateNotifyWorks()[pri:0, instance:by.traning.task05.service.observer.impl.ObservableQuadrilateralTest@4e423aa2]" started-at="2021-07-02T01:54:14 MSK" name="returnFalseIfTheUpdateNotifyWorks" description="Test will fail if the notify works and the.comment quadrilateral.addObserver(QuadrilateralObserver.getInstance()); to check the results" finished-at="2021-07-02T01:54:14 MSK" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnFalseIfTheUpdateNotifyWorks -->
+      </class> <!-- by.traning.task05.service.observer.impl.ObservableQuadrilateralTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest">
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check parallelogram" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check parallelogram" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest@7c214cc0]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check parallelogram" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest -->
+      <class name="by.traning.task05.dao.impl.FileQuadrilateralDAOTest">
+        <test-method signature="fileQuadrilateralDAONegativeTest(java.lang.String)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="fileQuadrilateralDAONegativeTest" description="Negative script of read" data-provider="input_a_negative" finished-at="2021-07-02T01:54:13 MSK" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[file/point1.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileQuadrilateralDAONegativeTest -->
+        <test-method signature="fileQuadrilateralDAONegativeTest(java.lang.String)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="fileQuadrilateralDAONegativeTest" description="Negative script of read" data-provider="input_a_negative" finished-at="2021-07-02T01:54:13 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileQuadrilateralDAONegativeTest -->
+        <test-method signature="fileQuadrilateralDAOTest(java.lang.String,java.util.List)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="fileQuadrilateralDAOTest" description="Positive script of read" data-provider="input_a_b" finished-at="2021-07-02T01:54:13 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[file/point.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileQuadrilateralDAOTest -->
+        <test-method signature="isNumericNegativeTest(java.util.List,java.lang.String)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="isNumericNegativeTest" description="Negative script of save" data-provider="input_a_b_negative" finished-at="2021-07-02T01:54:13 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericNegativeTest -->
+        <test-method signature="isNumericNegativeTest(java.util.List,java.lang.String)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="isNumericNegativeTest" description="Negative script of save" data-provider="input_a_b_negative" finished-at="2021-07-02T01:54:13 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file/point1.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericNegativeTest -->
+        <test-method signature="isNumericNegativeTest(java.util.List,java.lang.String)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:13 MSK" name="isNumericNegativeTest" description="Negative script of save" data-provider="input_a_b_negative" finished-at="2021-07-02T01:54:13 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericNegativeTest -->
+        <test-method signature="isNumericTest(java.util.List,java.lang.String,java.util.List)[pri:0, instance:by.traning.task05.dao.impl.FileQuadrilateralDAOTest@6bf08014]" started-at="2021-07-02T01:54:14 MSK" name="isNumericTest" description="Positive script of save" data-provider="input_a_b_c" finished-at="2021-07-02T01:54:14 MSK" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=2, coordinateY=3), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=5), pointD=Quadrilateral.Point(coordinateX=6, coordinateY=4), quadrilateralId=null), Quadrilateral(pointA=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=10), pointD=Quadrilateral.Point(coordinateX=20, coordinateY=10), quadrilateralId=null)]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file/point2.txt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[1.5 2.3 4.5 6.4, 10.20 20.20 10.10 20.10]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericTest -->
+      </class> <!-- by.traning.task05.dao.impl.FileQuadrilateralDAOTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest">
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check rhombus" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check rhombus" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest@3d246ea3]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check rhombus" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(coordinateX=7, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=5, coordinateY=2), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=5), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest -->
+      <class name="by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest">
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check rectangle" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexNegativeTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e]" started-at="2021-07-02T01:54:14 MSK" name="isConvexNegativeTest" description="Negative script of the check rectangle" data-provider="input_a_negative" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexNegativeTest -->
+        <test-method signature="isConvexTest(by.traning.task05.bean.Quadrilateral)[pri:0, instance:by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest@56c4278e]" started-at="2021-07-02T01:54:14 MSK" name="isConvexTest" description="Positive script of the check rectangle" data-provider="input_a" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(coordinateX=1, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=1, coordinateY=-3), pointD=Quadrilateral.Point(coordinateX=-5, coordinateY=-3), quadrilateralId=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConvexTest -->
+      </class> <!-- by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest -->
+      <class name="by.traning.task05.service.observer.impl.ObserverQuadrilateralTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:by.traning.task05.service.observer.impl.ObserverQuadrilateralTest@7fbdb894]" started-at="2021-07-02T01:54:14 MSK" name="init" description="Initial creation of the object" finished-at="2021-07-02T01:54:14 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="updateTest(int)[pri:0, instance:by.traning.task05.service.observer.impl.ObserverQuadrilateralTest@7fbdb894]" started-at="2021-07-02T01:54:14 MSK" name="updateTest" description="Initial creation of the object" data-provider="input_a_update" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTest -->
+        <test-method signature="getQuadrilateralParameterByItemIdTest(by.traning.task05.bean.QuadrilateralParameter)[pri:0, instance:by.traning.task05.service.observer.impl.ObserverQuadrilateralTest@7fbdb894]" started-at="2021-07-02T01:54:14 MSK" name="getQuadrilateralParameterByItemIdTest" description="Initial creation of the object" data-provider="input_a_get" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QuadrilateralParameter[perimeter=40.0, area=100.0]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuadrilateralParameterByItemIdTest -->
+      </class> <!-- by.traning.task05.service.observer.impl.ObserverQuadrilateralTest -->
+      <class name="by.traning.task05.service.action.CalculatorHelperTest">
+        <test-method signature="distanceTest([Lby.traning.task05.bean.Quadrilateral$Point;,double)[pri:0, instance:by.traning.task05.service.action.CalculatorHelperTest@332729ad]" started-at="2021-07-02T01:54:14 MSK" name="distanceTest" description="Positive script of the check distance" data-provider="input_a_b_distance" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@115667d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distanceTest -->
+        <test-method signature="slopeTest([Lby.traning.task05.bean.Quadrilateral$Point;,double)[pri:0, instance:by.traning.task05.service.action.CalculatorHelperTest@332729ad]" started-at="2021-07-02T01:54:14 MSK" name="slopeTest" description="Positive script of the check slope" data-provider="input_a_b_slope" finished-at="2021-07-02T01:54:14 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lby.traning.task05.bean.Quadrilateral$Point;@737a135b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slopeTest -->
+        <test-method signature="triangleAreaTest([D,double)[pri:0, instance:by.traning.task05.service.action.CalculatorHelperTest@332729ad]" started-at="2021-07-02T01:54:14 MSK" name="triangleAreaTest" description="Positive script of the check triangle area" data-provider="input_a_b_triangleArea" finished-at="2021-07-02T01:54:14 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[D@4dd02341]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[428]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triangleAreaTest -->
+      </class> <!-- by.traning.task05.service.action.CalculatorHelperTest -->
+      <class name="by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest">
+        <test-method signature="areaCalculatorTest(by.traning.task05.bean.Quadrilateral,double)[pri:0, instance:by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest@6057aebb]" started-at="2021-07-02T01:54:14 MSK" name="areaCalculatorTest" description="Positive script of the area calculator" data-provider="input_a_b_areaCalculator" finished-at="2021-07-02T01:54:14 MSK" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.65]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5.65] but found [90.99999999999996]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5.65] but found [90.99999999999996]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEquals(Assert.java:671)
+at org.testng.Assert.assertEquals(Assert.java:684)
+at by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest.areaCalculatorTest(ParallelogramCalculatorActionTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areaCalculatorTest -->
+      </class> <!-- by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

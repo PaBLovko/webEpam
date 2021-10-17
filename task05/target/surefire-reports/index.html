@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods, 1 failed,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest" class="method navigator-link" hash-for-method="areaCalculatorTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)">areaCalculatorTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.action.CalculatorHelperTest" class="method navigator-link" hash-for-method="distanceTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)">distanceTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="fileQuadrilateralDAONegativeTest(file/point1.txt)">fileQuadrilateralDAONegativeTest(file/point1.txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="fileQuadrilateralDAONegativeTest(null)">fileQuadrilateralDAONegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="fileQuadrilateralDAOTest(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5...)">fileQuadrilateralDAOTest(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.observer.impl.ObserverQuadrilateralTest" class="method navigator-link" hash-for-method="getQuadrilateralParameterByItemIdTest(QuadrilateralParameter[perimeter=40.0, area=100.0])">getQuadrilateralParameterByItemIdTest(QuadrilateralParameter[perimeter=40.0, area=100.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest([null, null, null, null])">isConvexNegativeTest([null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(null)">isConvexNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(null)">isConvexNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(null)">isConvexNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(null)">isConvexNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(null)">isConvexNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">isConvexNegativeTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)">isConvexNegativeTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest([null, null, null, null])">isConvexNegativeTest([null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest" class="method navigator-link" hash-for-method="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest" class="method navigator-link" hash-for-method="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(...)">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest" class="method navigator-link" hash-for-method="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point...)">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest" class="method navigator-link" hash-for-method="isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)">isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest" class="method navigator-link" hash-for-method="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest" class="method navigator-link" hash-for-method="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(c...)">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest" class="method navigator-link" hash-for-method="isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=...)">isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest" class="method navigator-link" hash-for-method="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point...)">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.NumericValueValidatorTest" class="method navigator-link" hash-for-method="isNumericNegativeTest(4400Done)">isNumericNegativeTest(4400Done)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.NumericValueValidatorTest" class="method navigator-link" hash-for-method="isNumericNegativeTest(null)">isNumericNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="isNumericNegativeTest(null, null)">isNumericNegativeTest(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="isNumericNegativeTest([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1...)">isNumericNegativeTest([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="isNumericNegativeTest(null, file/point1.txt)">isNumericNegativeTest(null, file/point1.txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.NumericValueValidatorTest" class="method navigator-link" hash-for-method="isNumericTest(-2147483648)">isNumericTest(-2147483648)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.NumericValueValidatorTest" class="method navigator-link" hash-for-method="isNumericTest(2147483647)">isNumericTest(2147483647)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.NumericValueValidatorTest" class="method navigator-link" hash-for-method="isNumericTest(4400)">isNumericTest(4400)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.dao.impl.FileQuadrilateralDAOTest" class="method navigator-link" hash-for-method="isNumericTest([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(...)">isNumericTest([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest" class="method navigator-link" hash-for-method="isThreePointsOnSameLineNegativeTest([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">isThreePointsOnSameLineNegativeTest([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest" class="method navigator-link" hash-for-method="isThreePointsOnSameLineNegativeTest([null, null, null])">isThreePointsOnSameLineNegativeTest([null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest" class="method navigator-link" hash-for-method="isThreePointsOnSameLineTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">isThreePointsOnSameLineTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.PointValidatorTest" class="method navigator-link" hash-for-method="isValidPointNegativeTest(null)">isValidPointNegativeTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.PointValidatorTest" class="method navigator-link" hash-for-method="isValidPointNegativeTest([1.5, 2.3, 4.5, 6.F])">isValidPointNegativeTest([1.5, 2.3, 4.5, 6.F])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.PointValidatorTest" class="method navigator-link" hash-for-method="isValidPointTest([1.5, 2.3, 4.5, 6.4])">isValidPointTest([1.5, 2.3, 4.5, 6.4])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.validator.PointValidatorTest" class="method navigator-link" hash-for-method="isValidPointTest([2147483647.2, 4.5, 0.0, 1.-2147483648])">isValidPointTest([2147483647.2, 4.5, 0.0, 1.-2147483648])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.observer.impl.ObservableQuadrilateralTest" class="method navigator-link" hash-for-method="returnFalseIfTheUpdateNotifyWorks">returnFalseIfTheUpdateNotifyWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.action.CalculatorHelperTest" class="method navigator-link" hash-for-method="slopeTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)">slopeTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.action.CalculatorHelperTest" class="method navigator-link" hash-for-method="triangleAreaTest([28.231188426986208, 39.84971769034255, 30.4138126514911], 428)">triangleAreaTest([28.231188426986208, 39.84971769034255, 30.4138126514911], 428)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.traning.task05.service.observer.impl.ObserverQuadrilateralTest" class="method navigator-link" hash-for-method="updateTest(1)">updateTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaCalculatorTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)">
+                  </a> <!-- areaCalculatorTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...) -->
+                  <span class="method-name">areaCalculatorTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null), 5.65)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [5.65] but found [90.99999999999996]
+	at by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest.areaCalculatorTest(ParallelogramCalculatorActionTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Positive script of the area calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(null)">
+                  </a> <!-- isConvexNegativeTest(null) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null))</span>
+                  <em>
+(Negative script of the check square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point...)">
+                  </a> <!-- isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointD=Quadrilateral.Point(coordinateX=10, coordinateY=10), quadrilateralId=null))</span>
+                  <em>
+(Positive script of the check square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isThreePointsOnSameLineNegativeTest([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">
+                  </a> <!-- isThreePointsOnSameLineNegativeTest([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...) -->
+                  <span class="method-name">isThreePointsOnSameLineNegativeTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=3, coordinateY=6)])</span>
+                  <em>
+(Negative script of the check point on a line)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isThreePointsOnSameLineNegativeTest([null, null, null])">
+                  </a> <!-- isThreePointsOnSameLineNegativeTest([null, null, null]) -->
+                  <span class="method-name">isThreePointsOnSameLineNegativeTest</span>
+                  <span class="parameters">([null, null, null])</span>
+                  <em>
+(Negative script of the check point on a line)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isThreePointsOnSameLineTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">
+                  </a> <!-- isThreePointsOnSameLineTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...) -->
+                  <span class="method-name">isThreePointsOnSameLineTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=3, coordinateY=6)])</span>
+                  <em>
+(Positive script of the check point on a line)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(null)">
+                  </a> <!-- isConvexNegativeTest(null) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check trapezoid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null))</span>
+                  <em>
+(Negative script of the check trapezoid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point...)">
+                  </a> <!-- isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point(coordinateX=5, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-4, coordinateY=-9), quadrilateralId=null))</span>
+                  <em>
+(Positive script of the check trapezoid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.dao.impl.FileQuadrilateralDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileQuadrilateralDAONegativeTest(file/point1.txt)">
+                  </a> <!-- fileQuadrilateralDAONegativeTest(file/point1.txt) -->
+                  <span class="method-name">fileQuadrilateralDAONegativeTest</span>
+                  <span class="parameters">(file/point1.txt)</span>
+                  <em>
+(Negative script of read)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileQuadrilateralDAONegativeTest(null)">
+                  </a> <!-- fileQuadrilateralDAONegativeTest(null) -->
+                  <span class="method-name">fileQuadrilateralDAONegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of read)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileQuadrilateralDAOTest(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5...)">
+                  </a> <!-- fileQuadrilateralDAOTest(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5...) -->
+                  <span class="method-name">fileQuadrilateralDAOTest</span>
+                  <span class="parameters">(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5])</span>
+                  <em>
+(Positive script of read)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericNegativeTest(null, null)">
+                  </a> <!-- isNumericNegativeTest(null, null) -->
+                  <span class="method-name">isNumericNegativeTest</span>
+                  <span class="parameters">(null, null)</span>
+                  <em>
+(Negative script of save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericNegativeTest([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1...)">
+                  </a> <!-- isNumericNegativeTest([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1...) -->
+                  <span class="method-name">isNumericNegativeTest</span>
+                  <span class="parameters">([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1,6 5,5], null)</span>
+                  <em>
+(Negative script of save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericNegativeTest(null, file/point1.txt)">
+                  </a> <!-- isNumericNegativeTest(null, file/point1.txt) -->
+                  <span class="method-name">isNumericNegativeTest</span>
+                  <span class="parameters">(null, file/point1.txt)</span>
+                  <em>
+(Negative script of save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericTest([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(...)">
+                  </a> <!-- isNumericTest([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(...) -->
+                  <span class="method-name">isNumericTest</span>
+                  <span class="parameters">([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=2, coordinateY=3), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=5), pointD=Quadrilateral.Point(coordinateX=6, coordinateY=4), quadrilateralId=null), Quadrilateral(pointA=Quadrilateral.Point(coordinateX=10, coordinateY=20), pointB=Quadrilateral.Point(coordinateX=20, coordinateY=20), pointC=Quadrilateral.Point(coordinateX=10, coordinateY=10), pointD=Quadrilateral.Point(coordinateX=20, coordinateY=10), quadrilateralId=null)], file/point2.txt, [1.5 2.3 4.5 6.4, 10.20 20.20 10.10 20.10])</span>
+                  <em>
+(Positive script of save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(null)">
+                  </a> <!-- isConvexNegativeTest(null) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check rhombus)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null))</span>
+                  <em>
+(Negative script of the check rhombus)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(coordinateX=7, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=5, coordinateY=2), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=5), quadrilateralId=null))</span>
+                  <em>
+(Positive script of the check rhombus)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(null)">
+                  </a> <!-- isConvexNegativeTest(null) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check rectangle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null))</span>
+                  <em>
+(Negative script of the check rectangle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(...)">
+                  </a> <!-- isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(coordinateX=1, coordinateY=1), pointC=Quadrilateral.Point(coordinateX=1, coordinateY=-3), pointD=Quadrilateral.Point(coordinateX=-5, coordinateY=-3), quadrilateralId=null))</span>
+                  <em>
+(Positive script of the check rectangle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(null)">
+                  </a> <!-- isConvexNegativeTest(null) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check parallelogram)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)">
+                  </a> <!-- isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(coordinateX=3, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=3, coordinateY=6), pointD=Quadrilateral.Point(coordinateX=3, coordinateY=6), quadrilateralId=null))</span>
+                  <em>
+(Negative script of the check parallelogram)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)">
+                  </a> <!-- isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(coordinateX=6, coordinateY=5), pointC=Quadrilateral.Point(coordinateX=4, coordinateY=-2), pointD=Quadrilateral.Point(coordinateX=-9, coordinateY=-2), quadrilateralId=null))</span>
+                  <em>
+(Positive script of the check parallelogram)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.PointValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isValidPointNegativeTest(null)">
+                  </a> <!-- isValidPointNegativeTest(null) -->
+                  <span class="method-name">isValidPointNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check point)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isValidPointNegativeTest([1.5, 2.3, 4.5, 6.F])">
+                  </a> <!-- isValidPointNegativeTest([1.5, 2.3, 4.5, 6.F]) -->
+                  <span class="method-name">isValidPointNegativeTest</span>
+                  <span class="parameters">([1.5, 2.3, 4.5, 6.F])</span>
+                  <em>
+(Negative script of the check point)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isValidPointTest([1.5, 2.3, 4.5, 6.4])">
+                  </a> <!-- isValidPointTest([1.5, 2.3, 4.5, 6.4]) -->
+                  <span class="method-name">isValidPointTest</span>
+                  <span class="parameters">([1.5, 2.3, 4.5, 6.4])</span>
+                  <em>
+(Positive script of the check point)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isValidPointTest([2147483647.2, 4.5, 0.0, 1.-2147483648])">
+                  </a> <!-- isValidPointTest([2147483647.2, 4.5, 0.0, 1.-2147483648]) -->
+                  <span class="method-name">isValidPointTest</span>
+                  <span class="parameters">([2147483647.2, 4.5, 0.0, 1.-2147483648])</span>
+                  <em>
+(Positive script of the check point)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.action.CalculatorHelperTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="distanceTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)">
+                  </a> <!-- distanceTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...) -->
+                  <span class="method-name">distanceTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=1)], 5.65)</span>
+                  <em>
+(Positive script of the check distance)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slopeTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)">
+                  </a> <!-- slopeTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...) -->
+                  <span class="method-name">slopeTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=1)], 1)</span>
+                  <em>
+(Positive script of the check slope)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="triangleAreaTest([28.231188426986208, 39.84971769034255, 30.4138126514911], 428)">
+                  </a> <!-- triangleAreaTest([28.231188426986208, 39.84971769034255, 30.4138126514911], 428) -->
+                  <span class="method-name">triangleAreaTest</span>
+                  <span class="parameters">([28.231188426986208, 39.84971769034255, 30.4138126514911], 428)</span>
+                  <em>
+(Positive script of the check triangle area)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.observer.impl.ObserverQuadrilateralTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getQuadrilateralParameterByItemIdTest(QuadrilateralParameter[perimeter=40.0, area=100.0])">
+                  </a> <!-- getQuadrilateralParameterByItemIdTest(QuadrilateralParameter[perimeter=40.0, area=100.0]) -->
+                  <span class="method-name">getQuadrilateralParameterByItemIdTest</span>
+                  <span class="parameters">(QuadrilateralParameter[perimeter=40.0, area=100.0])</span>
+                  <em>
+(Initial creation of the object)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTest(1)">
+                  </a> <!-- updateTest(1) -->
+                  <span class="method-name">updateTest</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(Initial creation of the object)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.observer.impl.ObservableQuadrilateralTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnFalseIfTheUpdateNotifyWorks">
+                  </a> <!-- returnFalseIfTheUpdateNotifyWorks -->
+                  <span class="method-name">returnFalseIfTheUpdateNotifyWorks</span>
+                  <em>
+(Test will fail if the notify works and the.comment quadrilateral.addObserver(QuadrilateralObserver.getInstance()); to check the results)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)">
+                  </a> <!-- isConvexNegativeTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=3, coordinateY=6), Quadrilateral.Point(coordinateX=3, coordinateY=6)])</span>
+                  <em>
+(Negative script of the check convex square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest([null, null, null, null])">
+                  </a> <!-- isConvexNegativeTest([null, null, null, null]) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">([null, null, null, null])</span>
+                  <em>
+(Negative script of the check convex square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)">
+                  </a> <!-- isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY=0), Quadrilateral.Point(coordinateX=3, coordinateY=8), Quadrilateral.Point(coordinateX=10, coordinateY=5)])</span>
+                  <em>
+(Positive script of the check convex square)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest([null, null, null, null])">
+                  </a> <!-- isConvexNegativeTest([null, null, null, null]) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">([null, null, null, null])</span>
+                  <em>
+(Negative script of the check quadrilateral)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexNegativeTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)">
+                  </a> <!-- isConvexNegativeTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...) -->
+                  <span class="method-name">isConvexNegativeTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY=0), Quadrilateral.Point(coordinateX=3, coordinateY=8), Quadrilateral.Point(coordinateX=10, coordinateY=5)])</span>
+                  <em>
+(Negative script of the check quadrilateral)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=...)">
+                  </a> <!-- isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=...) -->
+                  <span class="method-name">isConvexTest</span>
+                  <span class="parameters">([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=5), Quadrilateral.Point(coordinateX=3, coordinateY=8), Quadrilateral.Point(coordinateX=10, coordinateY=5)])</span>
+                  <em>
+(Positive script of the check quadrilateral)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.traning.task05.service.validator.NumericValueValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericNegativeTest(4400Done)">
+                  </a> <!-- isNumericNegativeTest(4400Done) -->
+                  <span class="method-name">isNumericNegativeTest</span>
+                  <span class="parameters">(4400Done)</span>
+                  <em>
+(Negative script of the check number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericNegativeTest(null)">
+                  </a> <!-- isNumericNegativeTest(null) -->
+                  <span class="method-name">isNumericNegativeTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(Negative script of the check number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericTest(-2147483648)">
+                  </a> <!-- isNumericTest(-2147483648) -->
+                  <span class="method-name">isNumericTest</span>
+                  <span class="parameters">(-2147483648)</span>
+                  <em>
+(Positive script of the check number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericTest(2147483647)">
+                  </a> <!-- isNumericTest(2147483647) -->
+                  <span class="method-name">isNumericTest</span>
+                  <span class="parameters">(2147483647)</span>
+                  <em>
+(Positive script of the check number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNumericTest(4400)">
+                  </a> <!-- isNumericTest(4400) -->
+                  <span class="method-name">isNumericTest</span>
+                  <span class="parameters">(4400)</span>
+                  <em>
+(Positive script of the check number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;by.traning.task05.dao.impl.FileQuadrilateralDAOTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.action.CalculatorHelperTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.observer.impl.ObservableQuadrilateralTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.observer.impl.ObserverQuadrilateralTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.NumericValueValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.PointValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'returnFalseIfTheUpdateNotifyWorks')
+data.setCell(0, 2, 'by.traning.task05.service.observer.impl.ObservableQuadrilateralTest')
+data.setCell(0, 3, 28);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'isNumericTest')
+data.setCell(1, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(1, 3, 18);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fileQuadrilateralDAONegativeTest')
+data.setCell(2, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(2, 3, 14);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isConvexTest')
+data.setCell(3, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isConvexNegativeTest')
+data.setCell(4, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'isConvexNegativeTest')
+data.setCell(5, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'areaCalculatorTest')
+data.setCell(6, 2, 'by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fileQuadrilateralDAOTest')
+data.setCell(7, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isConvexNegativeTest')
+data.setCell(8, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'isConvexTest')
+data.setCell(9, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'isConvexNegativeTest')
+data.setCell(10, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'distanceTest')
+data.setCell(11, 2, 'by.traning.task05.service.action.CalculatorHelperTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'isValidPointTest')
+data.setCell(12, 2, 'by.traning.task05.service.validator.PointValidatorTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'isValidPointTest')
+data.setCell(13, 2, 'by.traning.task05.service.validator.PointValidatorTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'isNumericNegativeTest')
+data.setCell(14, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isValidPointNegativeTest')
+data.setCell(15, 2, 'by.traning.task05.service.validator.PointValidatorTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'isConvexNegativeTest')
+data.setCell(16, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'isConvexNegativeTest')
+data.setCell(17, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isNumericNegativeTest')
+data.setCell(18, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'isNumericTest')
+data.setCell(19, 2, 'by.traning.task05.service.validator.NumericValueValidatorTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'isConvexTest')
+data.setCell(20, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'isConvexTest')
+data.setCell(21, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'triangleAreaTest')
+data.setCell(22, 2, 'by.traning.task05.service.action.CalculatorHelperTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'isConvexTest')
+data.setCell(23, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'isConvexNegativeTest')
+data.setCell(24, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'slopeTest')
+data.setCell(25, 2, 'by.traning.task05.service.action.CalculatorHelperTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'isValidPointNegativeTest')
+data.setCell(26, 2, 'by.traning.task05.service.validator.PointValidatorTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'isConvexNegativeTest')
+data.setCell(27, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'isConvexNegativeTest')
+data.setCell(28, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'isNumericNegativeTest')
+data.setCell(29, 2, 'by.traning.task05.service.validator.NumericValueValidatorTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'isNumericNegativeTest')
+data.setCell(30, 2, 'by.traning.task05.service.validator.NumericValueValidatorTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'isNumericNegativeTest')
+data.setCell(31, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'isConvexNegativeTest')
+data.setCell(32, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'isConvexNegativeTest')
+data.setCell(33, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'isThreePointsOnSameLineNegativeTest')
+data.setCell(34, 2, 'by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'isConvexNegativeTest')
+data.setCell(35, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'isConvexTest')
+data.setCell(36, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'isConvexNegativeTest')
+data.setCell(37, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'isNumericTest')
+data.setCell(38, 2, 'by.traning.task05.service.validator.NumericValueValidatorTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'isNumericTest')
+data.setCell(39, 2, 'by.traning.task05.service.validator.NumericValueValidatorTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'updateTest')
+data.setCell(40, 2, 'by.traning.task05.service.observer.impl.ObserverQuadrilateralTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'fileQuadrilateralDAONegativeTest')
+data.setCell(41, 2, 'by.traning.task05.dao.impl.FileQuadrilateralDAOTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'isThreePointsOnSameLineNegativeTest')
+data.setCell(42, 2, 'by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'isConvexNegativeTest')
+data.setCell(43, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'isThreePointsOnSameLineTest')
+data.setCell(44, 2, 'by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'getQuadrilateralParameterByItemIdTest')
+data.setCell(45, 2, 'by.traning.task05.service.observer.impl.ObserverQuadrilateralTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'isConvexTest')
+data.setCell(46, 2, 'by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest')
+data.setCell(46, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 85 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.dao.impl.FileQuadrilateralDAOTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fileQuadrilateralDAONegativeTest(file/point1.txt)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fileQuadrilateralDAONegativeTest(null)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fileQuadrilateralDAOTest(file/point.txt, [1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5...)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericNegativeTest([1,5 2,3 4,5 6,4, 1,a b,5 5,5 -4,3, 0,8 h,4 1,6 5,5, 10,5 2,-3 4,7 4,4, 1,8 6,5 5,-5 -4,3, 0,8 h,4 1...)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericNegativeTest(null, file/point1.txt)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericNegativeTest(null, null)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericTest([Quadrilateral(pointA=Quadrilateral.Point(coordinateX=1, coordinateY=5), pointB=Quadrilateral.Point(...)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.action.CalculatorHelperTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">distanceTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">slopeTest([Quadrilateral.Point(coordinateX=3, coordinateY=5), Quadrilateral.Point(coordinateX=-1, coordinateY=...)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">triangleAreaTest([28.231188426986208, 39.84971769034255, 30.4138126514911], 428)</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.action.impl.ParallelogramCalculatorActionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">areaCalculatorTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.observer.impl.ObservableQuadrilateralTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">returnFalseIfTheUpdateNotifyWorks</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.observer.impl.ObserverQuadrilateralTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateTest(1)</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getQuadrilateralParameterByItemIdTest(QuadrilateralParameter[perimeter=40.0, area=100.0])</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.NumericValueValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isNumericNegativeTest(4400Done)</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericTest(4400)</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericNegativeTest(null)</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericTest(-2147483648)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNumericTest(2147483647)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.PointValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isValidPointNegativeTest([1.5, 2.3, 4.5, 6.F])</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isValidPointNegativeTest(null)</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isValidPointTest([2147483647.2, 4.5, 0.0, 1.-2147483648])</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isValidPointTest([1.5, 2.3, 4.5, 6.4])</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.ConvexValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest([null, null, null, null])</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.ParallelogramValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(null)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-7, coordinateY=5), pointB=Quadrilateral.Point(...)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.QuadrilateralValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest([Quadrilateral.Point(coordinateX=1, coordinateY=15), Quadrilateral.Point(coordinateX=10, coordinateY...)</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest([null, null, null, null])</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest([Quadrilateral.Point(coordinateX=1, coordinateY=5), Quadrilateral.Point(coordinateX=10, coordinateY=...)</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.RectangleValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(null)</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-5, coordinateY=1), pointB=Quadrilateral.Point(...)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.RhombusValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(null)</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=5, coordinateY=8), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.SquareValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(null)</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=20, coordinateY=10), pointB=Quadrilateral.Point...)</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.quadrilateralvalidator.TrapezoidValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=3, coordinateY=4), pointB=Quadrilateral.Point(c...)</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexNegativeTest(null)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConvexTest(Quadrilateral(pointA=Quadrilateral.Point(coordinateX=-3, coordinateY=-3), pointB=Quadrilateral.Point...)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.traning.task05.service.validator.ThreePointsOnSameLineValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isThreePointsOnSameLineNegativeTest([null, null, null])</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isThreePointsOnSameLineNegativeTest([Quadrilateral.Point(coordinateX=4, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isThreePointsOnSameLineTest([Quadrilateral.Point(coordinateX=3, coordinateY=4), Quadrilateral.Point(coordinateX=3, coordinateY=5...)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

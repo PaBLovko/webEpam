@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="testDishService">
+        <classes>
+            <class name = "by.training.webapplication.service.impl.DishServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testCommentService">
+        <classes>
+            <class name = "by.training.webapplication.service.impl.CommentServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testUserServiceImpl">
+        <classes>
+            <class name="by.training.webapplication.service.impl.UserServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testBasketServiceImpl">
+        <classes>
+            <class name="by.training.webapplication.service.impl.BasketServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testBasketProductServiceImpl">
+        <classes>
+            <class name="by.training.webapplication.service.impl.BasketProductServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testOrderServiceImpl">
+        <classes>
+            <class name="by.training.webapplication.service.impl.OrderServiceImplTest">
+            </class>
+        </classes>
+    </test>
+    <test name="testOrderProductServiceImpl">
+        <classes>
+            <class name="by.training.webapplication.service.impl.OrderProductServiceImplTest">
+            </class>
+        </classes>
+    </test>
+</suite>

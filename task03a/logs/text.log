@@ -1,0 +1,280 @@
+2021-06-10 03:25:46.142 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:27:37.114 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:27:37.120 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:27:37.121 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:28:59.338 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:28:59.344 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:28:59.346 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:31:18.826 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtraction() is exception, incompatible matrices
+2021-06-10 03:31:18.832 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:31:18.834 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtraction() is exception, incompatible matrices
+2021-06-10 03:31:54.263 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:31:54.269 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiply() is exception, incompatible matrices
+2021-06-10 03:31:54.271 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiply() is exception, incompatible matrices
+2021-06-10 03:32:01.778 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:32:01.784 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiply() is exception, incompatible matrices
+2021-06-10 03:32:01.785 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiply() is exception, incompatible matrices
+2021-06-10 03:32:01.854 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtraction() is exception, incompatible matrices
+2021-06-10 03:32:01.856 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:32:01.857 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtraction() is exception, incompatible matrices
+2021-06-10 03:32:01.871 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:32:01.872 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:32:01.873 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summation() is exception, incompatible matrices
+2021-06-10 03:41:37.161 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:41:37.168 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:41:37.169 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:41:37.171 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:42:19.137 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:42:19.142 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:42:19.144 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:42:19.145 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:43:37.926 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:43:37.932 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:43:37.934 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-10 03:43:37.935 [main] ERROR traning.task03a.service.creator.MatrixCreator - create() is exception, non-natural values
+2021-06-11 13:42:42.081 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:42:42.087 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:42:42.088 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:42:42.146 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:42:42.148 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:42:42.149 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:42:42.157 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:42:42.158 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:42:42.159 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:43:33.493 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:43:33.501 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:43:33.502 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:43:33.587 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:43:33.588 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:43:33.592 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:43:33.608 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:43:33.610 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:43:33.611 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:44:10.738 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:44:10.745 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:44:10.747 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:44:10.818 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:44:10.819 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:44:10.821 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:44:10.837 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:44:10.838 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:44:10.840 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:49:12.755 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:12.762 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:49:12.764 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:49:12.840 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:49:12.841 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:12.842 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:49:12.857 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:49:12.859 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:12.861 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:49:41.314 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:41.320 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:49:41.322 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:49:41.403 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:49:41.405 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:41.406 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:49:41.415 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:49:41.417 [main] ERROR traning.task03a.service.creator.MatrixCreator - createcreate() is exception, non-natural values
+2021-06-11 13:49:41.418 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:50:51.890 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:50:51.897 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:50:51.899 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:50:51.971 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:50:51.972 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:50:51.973 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:50:51.987 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:50:51.989 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:50:51.990 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:51:01.699 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:51:01.706 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:51:01.707 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - multiplyThe method is exception, incompatible matrices
+2021-06-11 13:51:01.782 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:51:01.783 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:51:01.785 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - subtractionThe method is exception, incompatible matrices
+2021-06-11 13:51:01.798 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 13:51:01.800 [main] ERROR traning.task03a.service.creator.MatrixCreator - createThe method is exception, non-natural values
+2021-06-11 13:51:01.803 [main] ERROR by.traning.task03a.service.impl.MatrixServiceImpl - summationThe method is exception, incompatible matrices
+2021-06-11 14:41:46.229 [main] ERROR traning.task03a.service.creator.ArrayCreator - The method is exception, non-natural values
+2021-06-11 14:41:46.236 [main] ERROR traning.task03a.service.creator.ArrayCreator - The method is exception, non-natural values
+2021-06-12 01:49:05.900 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:49:05.907 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:49:05.909 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:49:05.910 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:59:44.122 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:59:44.128 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 01:59:44.130 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 01:59:44.201 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 01:59:44.202 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:59:44.204 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 01:59:44.221 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 01:59:44.222 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 01:59:44.224 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is exception, incompatible matrices
+2021-06-12 02:03:41.767 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:41.773 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:41.774 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:41.775 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:46.890 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:46.894 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:46.896 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:03:46.897 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-12 02:22:31.443 [main] ERROR traning.task03a.service.creator.FileCreator - The method is exception, the fileData was not found
+2021-06-12 02:37:43.162 [main] ERROR traning.task03a.dao.impl.FileArrayDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/testFile.txt, fileData=src\main\resources\testFile.txt) did not read
+2021-06-12 02:37:55.586 [main] ERROR traning.task03a.dao.impl.FileArrayDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/testFile.txt, fileData=src\main\resources\testFile.txt) contains more than just numbers
+2021-06-12 02:38:04.636 [main] ERROR traning.task03a.dao.impl.FileArrayDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/testFile.txt, fileData=src\main\resources\testFile.txt) contains more than just numbers
+2021-06-12 02:55:25.805 [main] ERROR traning.task03a.dao.impl.FileArrayDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/matrixFileTest.txt, fileData=src\main\resources\matrixFileTest.txt) contains more than just numbers
+2021-06-12 02:56:31.620 [main] ERROR traning.task03a.dao.impl.FileArrayDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/matrixFileTest.txt, fileData=src\main\resources\matrixFileTest.txt) contains more than just numbers
+2021-06-12 03:26:11.852 [main] ERROR traning.task03a.dao.impl.FileMatrixDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/matrixFileTest.txt, fileData=src\main\resources\matrixFileTest.txt) contains wrong numbers
+2021-06-12 03:27:27.309 [main] ERROR traning.task03a.dao.impl.FileMatrixDAO - The method is exception.The fileDataForData File(pathFromContentRoot=src/main/resources/matrixFileTest.txt, fileData=src\main\resources\matrixFileTest.txt) contains wrong numbers
+2021-06-13 17:50:53.510 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 17:56:05.996 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 17:57:16.454 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 17:57:31.224 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 17:57:42.805 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 17:58:40.748 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:13:32.278 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:16:09.047 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:17:01.083 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:18:04.833 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:18:24.828 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:21:25.473 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:21:32.277 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 18:29:12.931 [main] ERROR by.traning.task03a.controller.CommandProvider - The method is exception, wrong request
+2021-06-13 19:11:05.650 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-13 19:11:05.655 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:11:05.656 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:11:05.737 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:11:05.739 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-13 19:11:05.740 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:11:05.748 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:11:05.749 [main] ERROR traning.task03a.service.creator.MatrixCreator - The method is exception, non-natural values
+2021-06-13 19:11:05.751 [main] ERROR traning.task03a.service.action.MatrixServiceAction - The method is exception, incompatible matrices
+2021-06-13 19:21:52.099 [main] ERROR traning.task03a.dao.impl.FileMatrixDAO - The method is exception. The matrix [[0, 0, 0], [0, 0, 0], [0, 0, 0]] didn't write
+2021-06-13 19:21:52.103 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is invoked
+by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) [classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixSubtraction(MatrixServiceImpl.java:110) [classes/:?]
+	at by.traning.task03a.controller.impl.MatrixSubtraction.execute(MatrixSubtraction.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	... 5 more
+2021-06-13 19:21:52.119 [main] ERROR traning.task03a.controller.impl.MatrixSubtraction - The method is exception, error during the procedure
+by.traning.task03a.service.exception.ServiceException: The method is invoked
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:70) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixSubtraction(MatrixServiceImpl.java:110) ~[classes/:?]
+	at by.traning.task03a.controller.impl.MatrixSubtraction.execute(MatrixSubtraction.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
+2021-06-13 19:22:09.251 [main] ERROR traning.task03a.dao.impl.FileMatrixDAO - The method is exception. The matrix [[10, 16, 20], [19, 30, 37], [10, 16, 20]] didn't write
+2021-06-13 19:22:09.252 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is invoked
+by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) [classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixMultiply(MatrixServiceImpl.java:84) [classes/:?]
+	at by.traning.task03a.controller.impl.MatrixMultiply.execute(MatrixMultiply.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	... 5 more
+2021-06-13 19:22:09.252 [main] ERROR traning.task03a.controller.impl.MatrixMultiply - The method is exception, error during the procedure
+by.traning.task03a.service.exception.ServiceException: The method is invoked
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:70) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixMultiply(MatrixServiceImpl.java:84) ~[classes/:?]
+	at by.traning.task03a.controller.impl.MatrixMultiply.execute(MatrixMultiply.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
+2021-06-13 19:22:24.039 [main] ERROR traning.task03a.dao.impl.FileMatrixDAO - The method is exception. The matrix [[10, 16, 20], [19, 30, 37], [10, 16, 20]] didn't write
+2021-06-13 19:22:24.042 [main] ERROR traning.task03a.service.impl.MatrixServiceImpl - The method is invoked
+by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) [classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixMultiply(MatrixServiceImpl.java:84) [classes/:?]
+	at by.traning.task03a.controller.impl.MatrixMultiply.execute(MatrixMultiply.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	... 5 more
+2021-06-13 19:22:24.054 [main] ERROR traning.task03a.controller.impl.MatrixMultiply - The method is exception, error during the procedure
+by.traning.task03a.service.exception.ServiceException: The method is invoked
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:70) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.matrixMultiply(MatrixServiceImpl.java:84) ~[classes/:?]
+	at by.traning.task03a.controller.impl.MatrixMultiply.execute(MatrixMultiply.java:20) [classes/:?]
+	at by.traning.task03a.controller.Controller.executeTask(Controller.java:18) [classes/:?]
+	at by.traning.task03a.Main.main(Runnable.java:13) [classes/:?]
+Caused by: by.traning.task03a.dao.exception.DAOException: The array did not write
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:61) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
+Caused by: java.nio.fileData.FileAlreadyExistsException: src\main\resources\matrixResult.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.fileData.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.fileData.Files.newOutputStream(Files.java:224) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3556) ~[?:?]
+	at java.nio.fileData.Files.write(Files.java:3607) ~[?:?]
+	at by.traning.task03a.dao.impl.FileMatrixDAO.write(FileMatrixDAO.java:56) ~[classes/:?]
+	at by.traning.task03a.service.impl.MatrixServiceImpl.writeData(MatrixServiceImpl.java:67) ~[classes/:?]
+	... 4 more
